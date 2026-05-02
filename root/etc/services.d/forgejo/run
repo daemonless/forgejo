@@ -1,0 +1,9 @@
+#!/bin/sh
+# Forgejo s6 service
+
+export HOME=/config
+export FORGEJO_WORK_DIR=/config
+export FORGEJO_CUSTOM=/config/custom
+
+exec 2>&1
+exec /usr/local/bin/s6-notifyoncheck -c /healthz /usr/local/bin/s6-setuidgid bsd cd $HOME /app/forgejo web --config /config/custom/conf/app.ini

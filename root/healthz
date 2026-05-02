@@ -1,0 +1,10 @@
+#!/bin/sh
+
+state=$(fetch -qo - http://localhost:3000/api/healthz | jq -r .status)
+
+if [ "${state}" == "pass" ]; then
+  exit 0
+else
+  exit 1
+fi
+

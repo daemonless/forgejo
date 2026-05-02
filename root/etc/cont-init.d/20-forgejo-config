@@ -1,0 +1,56 @@
+#!/bin/sh
+# Initialize Forgejo configuration
+
+# Ensure directories exist and have correct permissions
+echo "[forgejo] Ensuring required directories exist in /config"
+mkdir -p /config/data /config/custom/conf /config/repos /config/log /config/lfs /config/tmp /config/bin
+chown -R bsd:bsd /config
+
+# If no config exists, create a minimal one
+if [ ! -f /config/custom/conf/app.ini ]; then
+    cat > /config/custom/conf/app.ini << 'EOF'
+APP_NAME = Forgejo: Beyond coding. We forge.
+RUN_USER = bsd
+WORK_PATH = /config
+RUN_MODE = prod
+
+[repository]
+ROOT = /config/repos
+
+[server]
+APP_DATA_PATH = /config/data
+STATIC_ROOT_PATH = /config/custom
+DOMAIN = localhost
+HTTP_PORT = 3000
+ROOT_URL = http://localhost:3000/
+SSH_DOMAIN = %(DOMAIN)s
+SSH_USER = git
+DISABLE_SSH = false
+SSH_PORT = 22
+LFS_START_SERVER = false
+OFFLINE_MODE = true
+
+[database]
+PATH = /config/data/forgejo.db
+DB_TYPE = sqlite3
+
+[log]
+MODE = console
+LEVEL = info
+ROOT_PATH = /config/log
+
+[security]
+INSTALL_LOCK = false
+
+[lfs]
+PATH = /config/lfs
+
+[mailer]
+ENABLED = false
+
+[cron.update_checker]
+ENABLED = false
+EOF
+    chown bsd:bsd /config/custom/conf/app.ini
+    echo "[forgejo] Created default app.ini - run initial setup at http://localhost:3000/"
+fi

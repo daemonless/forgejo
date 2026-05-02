@@ -1,0 +1,44 @@
+name: forgejo
+
+x-daemonless:
+  title: "Forgejo"
+  icon: ":simple-forgejo:"
+  category: "Infrastructure"
+  description: "Forgejo is a self-hosted lightweight software forge"
+  upstream_url: "https://codeberg.org/forgejo/forgejo"
+  web_url: "https://forgejo.org/"
+  freshports_url: "https://www.freshports.org/www/forgejo/"
+  user: "bsd"
+  mlock: false
+  upstream_binary: false
+
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+      SSH_PORT: "Port for sshd"
+    volumes:
+      /config: "Configuration, repositories, and data directory"
+    ports:
+      3001: "Web UI"
+      22: "SSH port"
+
+services:
+  forgejo:
+    image: ghcr.io/daemonless/forgejo:latest
+    container_name: forgejo
+    restart: unless-stopped
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - SSH_PORT=22 # optional
+
+    volumes:
+      - /path/to/containers/forgejo:/config
+
+    ports:
+      - "3000:3001"
+      - "2222:22"

@@ -1,0 +1,49 @@
+icon: ':simple-forgejo:'
+
+cit:
+  mode: screenshot
+  port: 3000
+  ssim_threshold: 0.85
+  ready: "Starting new Web server"
+
+build:
+  variants:
+    - tag: 15
+      tag_desc: Built from latest upstream source release of the v15 branch.
+      args:
+        UPSTREAM_URL: "https://codeberg.org/api/v1/repos/forgejo/forgejo/releases"
+        UPSTREAM_JQ: "map(select(.tag_name | test(\"^v15\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
+        TARBALL_JQ: "map(select(.tag_name | test(\"^v15\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
+      aliases: ["lts"]
+    - tag: 15-latest
+      tag_desc: Built from latest upstream source release of the v15 branch with latest FreeBSD packages.
+      default: true
+      args:
+        BASE_VERSION: "15-latest"
+        UPSTREAM_URL: "https://codeberg.org/api/v1/repos/forgejo/forgejo/releases"
+        UPSTREAM_JQ: "map(select(.tag_name | test(\"^v15\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
+        TARBALL_JQ: "map(select(.tag_name | test(\"^v15\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
+      aliases: ["lts-latest"]
+    - tag: 11
+      tag_desc: Built from latest upstream source release of the v11 branch.
+      args:
+        UPSTREAM_URL: "https://codeberg.org/api/v1/repos/forgejo/forgejo/releases"
+        UPSTREAM_JQ: "map(select(.tag_name | test(\"^v11\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
+        TARBALL_JQ: "map(select(.tag_name | test(\"^v11\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
+        CLEAN_TARGET: clean
+    - tag: latest
+      tag_desc: Built from latest upstream source release.
+    - tag: lts-pkg
+      pkg_name: forgejo-lts
+      containerfile: Containerfile.pkg
+    - tag: lts-pkg-latest
+      pkg_name: forgejo-lts
+      containerfile: Containerfile.pkg
+      args:
+        BASE_VERSION: "15-latest"
+    - tag: pkg
+      containerfile: Containerfile.pkg
+    - tag: pkg-latest
+      containerfile: Containerfile.pkg
+      args:
+        BASE_VERSION: "15-latest"

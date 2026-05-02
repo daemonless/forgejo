@@ -1,0 +1,79 @@
+#!/usr/bin/env bash
+
+# Setup git user with the same UID:GID as the bsd user so that we can
+# use git as the username in clone URLs
+echo "[sshd] Setting up user git with uid=${PUID} gid=${PGID}"
+pw usershow git >/dev/null 2>&1
+if [ $? -ne 0 ]; then
+  pw useradd -o -n git -d /config -s sh -u ${PUID} -g ${PGID} -w no -c "git user"
+else
+  pw usermod git -d /config -s sh -u ${PUID} -g ${PGID} -w no -c "git user"
+fi
+
+if [ ! -d /config/ssh ]; then
+    mkdir -p /config/ssh
+fi
+
+if [ ! -f /config/ssh/ssh_host_ed25519_key ]; then
+    echo "[sshd] Generating /config/ssh/ssh_host_ed25519_key..."
+    ssh-keygen -t ed25519 -f /config/ssh/ssh_host_ed25519_key -N "" > /dev/null
+fi
+
+if [ ! -f /config/ssh/ssh_host_rsa_key ]; then
+    echo "[sshd] Generating /config/ssh/ssh_host_rsa_key..."
+    ssh-keygen -t rsa -b 3072 -f /config/ssh/ssh_host_rsa_key -N "" > /dev/null
+fi
+
+if [ ! -f /config/ssh/ssh_host_ecdsa_key ]; then
+    echo "[sshd] Generating /config/ssh/ssh_host_ecdsa_key..."
+    ssh-keygen -t ecdsa -b 256 -f /config/ssh/ssh_host_ecdsa_key -N "" > /dev/null
+fi
+
+if [ -e /config/ssh/ssh_host_ed25519_cert ]; then
+  SSH_ED25519_CERT=${SSH_ED25519_CERT:-"/config/ssh/ssh_host_ed25519_cert"}
+fi
+
+if [ -e /config/ssh/ssh_host_rsa_cert ]; then
+  SSH_RSA_CERT=${SSH_RSA_CERT:-"/config/ssh/ssh_host_rsa_cert"}
+fi
+
+if [ -e /config/ssh/ssh_host_ecdsa_cert ]; then
+  SSH_ECDSA_CERT=${SSH_ECDSA_CERT:-"/config/ssh/ssh_host_ecdsa_cert"}
+fi
+
+# In case someone wants to sign the `{keyname}.pub` key by `ssh-keygen -s ca -I identity ...` to
+# make use of the ssh-key certificate authority feature (see ssh-keygen CERTIFICATES section),
+# the generated key file name is `{keyname}-cert.pub`
+if [ -e /config/ssh/ssh_host_ed25519_key-cert.pub ]; then
+  SSH_ED25519_CERT=${SSH_ED25519_CERT:-"/config/ssh/ssh_host_ed25519_key-cert.pub"}
+fi
+
+if [ -e /config/ssh/ssh_host_rsa_key-cert.pub ]; then
+  SSH_RSA_CERT=${SSH_RSA_CERT:-"/config/ssh/ssh_host_rsa_key-cert.pub"}
+fi
+
+if [ -e /config/ssh/ssh_host_ecdsa_key-cert.pub ]; then
+  SSH_ECDSA_CERT=${SSH_ECDSA_CERT:-"/config/ssh/ssh_host_ecdsa_key-cert.pub"}
+fi
+
+if [ -d /etc/ssh ]; then
+    USER=${USER:-"bsd"} \
+    SSH_PORT=${SSH_PORT:-"22"} \
+    SSH_LISTEN_PORT=${SSH_LISTEN_PORT:-"${SSH_PORT}"} \
+    SSH_ED25519_CERT="${SSH_ED25519_CERT:+"HostCertificate "}${SSH_ED25519_CERT}" \
+    SSH_RSA_CERT="${SSH_RSA_CERT:+"HostCertificate "}${SSH_RSA_CERT}" \
+    SSH_ECDSA_CERT="${SSH_ECDSA_CERT:+"HostCertificate "}${SSH_ECDSA_CERT}" \
+    SSH_MAX_STARTUPS="${SSH_MAX_STARTUPS:+"MaxStartups "}${SSH_MAX_STARTUPS}" \
+    SSH_MAX_SESSIONS="${SSH_MAX_SESSIONS:+"MaxSessions "}${SSH_MAX_SESSIONS}" \
+    SSH_INCLUDE_FILE="${SSH_INCLUDE_FILE:+"Include "}${SSH_INCLUDE_FILE}" \
+    SSH_LOG_LEVEL=${SSH_LOG_LEVEL:-"INFO"} \
+    /usr/local/bin/envsubst < /etc/templates/sshd_config > /etc/ssh/sshd_config
+
+    chmod 0644 /etc/ssh/sshd_config
+fi
+
+echo "[sshd] Changing ownership of /config/ssh to root and adjust permissions"
+chown -R root:wheel /config/ssh
+chmod 0700 /config/ssh
+chmod 0600 /config/ssh/*
+

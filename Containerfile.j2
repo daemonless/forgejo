@@ -1,0 +1,125 @@
+ARG BASE_VERSION=15
+
+ARG UPSTREAM_URL="https://codeberg.org/api/v1/repos/forgejo/forgejo/releases/latest"
+ARG UPSTREAM_JQ=".tag_name"
+ARG TARBALL_JQ=".tarball_url"
+
+FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
+
+ARG GOPROXY=""
+ENV GOPROXY=${GOPROXY:-https://proxy.golang.org,direct}
+
+
+# Install build tools
+RUN pkg update && pkg install -y FreeBSD-set-devel go126 gmake npm-node24 git && \
+    pkg clean -ay && rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+ARG UPSTREAM_URL
+ARG UPSTREAM_JQ
+ARG TARBALL_JQ
+
+RUN fetch -qo /latest.json "${UPSTREAM_URL}" && \
+    echo $(jq -r "${UPSTREAM_JQ}" /latest.json) > /version && \
+    echo $(jq -r "${TARBALL_JQ}" /latest.json) > /tarball_url
+
+# Fetch and extract source tarball
+RUN fetch -qo /tmp/forgejo.tar.gz "$(cat /tarball_url)" && \
+    mkdir /src && \
+    tar -C /src -xzf /tmp/forgejo.tar.gz --strip-components 1
+
+RUN ln -sf /usr/local/bin/go126 /usr/local/bin/go
+
+WORKDIR /src
+
+ARG TAGS="sqlite sqlite_unlock_notify postgres mysql"
+ENV TAGS="bindata timetzdata $TAGS"
+ARG CGO_EXTRA_CFLAGS=""
+ENV CGO_ENABLED=1
+
+ARG CLEAN_TARGET="clean-no-bindata"
+RUN gmake "${CLEAN_TARGET}"
+RUN gmake frontend
+RUN LDFLAGS="-buildid=" FORGEJO_VERSION=$(cat /version) \
+    gmake FORGEJO_GENERATE_SKIP_HASH=true RELEASE_VERSION=$(cat /version) GOFLAGS="-trimpath" \
+    go-check generate-backend static-executable 
+#RUN TAGS="${GO_TAGS}" FORGEJO_VERSION=$(cat /version) gmake build
+
+
+FROM ghcr.io/daemonless/base:${BASE_VERSION}
+ARG UPSTREAM_URL
+ARG UPSTREAM_JQ
+ARG FREEBSD_ARCH=amd64
+ARG PACKAGES="FreeBSD-ssh devel/git-lfs shells/bash"
+{%- if ports %}
+ARG HEALTHCHECK_ENDPOINT="http://localhost:{{ ports[0].port }}/api/healthz"
+{%- else %}
+ARG HEALTHCHECK_ENDPOINT="http://localhost:3000/api/healthz"
+{%- endif %}
+
+ENV HEALTHCHECK_URL="${HEALTHCHECK_ENDPOINT}"
+
+# --- Metadata (Injected by Generator) ---
+LABEL org.opencontainers.image.title="{{ title }}" \
+      org.opencontainers.image.description="{{ description }}" \
+      org.opencontainers.image.source="{{ repo_url }}" \
+      org.opencontainers.image.url="{{ web_url }}" \
+      org.opencontainers.image.licenses="AGPL-3.0" \
+      org.opencontainers.image.vendor="daemonless" \
+      org.opencontainers.image.authors="daemonless" \
+      io.daemonless.category="{{ category }}" \
+{%- if ports %}
+      io.daemonless.port="{{ ports[0].port }}" \
+{%- endif %}
+{%- if volumes %}
+      io.daemonless.volumes="{{ volumes | map(attribute='path') | join(',') }}" \
+{%- endif %}
+{%- if mlock %}
+      org.freebsd.jail.allow.mlock="required" \
+{%- endif %}
+      io.daemonless.arch="${FREEBSD_ARCH}" \
+      io.daemonless.upstream-url="${UPSTREAM_URL}" \
+      io.daemonless.healthcheck-url="${HEALTHCHECK_ENDPOINT}"
+
+# Update to latest patch level
+RUN pkg update -r FreeBSD-base && \
+    pkg upgrade -y -r FreeBSD-base && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+# Install run dependencies
+RUN pkg update && \
+    pkg install -y \
+    ${PACKAGES} && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+# Create required directories
+RUN mkdir -m 0755 -p /app /config/bin /config/data /config/custom/conf /config/repos /config/log /config/lfs /config/tmp && \
+    chown -R bsd:bsd /app /config
+
+# Copy executable from build stage
+COPY --chmod=0755 --chown=bsd:bsd --from=builder /src/gitea /app/forgejo
+
+# Copy version information from build stage and store in /app/version
+COPY --from=builder /version /tmp/version
+RUN cat /tmp/version | sed -n 's/^v\(.*\)$/\1/p' > /app/version && \
+    rm -f /tmp/version
+
+# Copy service definition and nginx config
+COPY root/ /
+
+# Remove run.pkg file
+RUN rm -f /etc/services.d/forgejo/run.pkg 2>/dev/null || true
+
+# Make scripts executable
+RUN chmod +x /etc/services.d/*/run /etc/cont-init.d/* 2>/dev/null || true
+
+# --- Expose (Injected by Generator) ---
+{%- if ports %}
+EXPOSE {{ ports | map(attribute='target') | join(' ') }}
+{%- endif %}
+
+# --- Volumes (Injected by Generator) ---
+{%- if volumes %}
+VOLUME {{ volumes | map(attribute='path') | join(' ') }}
+{%- endif %}
