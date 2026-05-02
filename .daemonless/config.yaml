@@ -41,9 +41,13 @@ build:
       containerfile: Containerfile.pkg
       args:
         BASE_VERSION: "15-latest"
-    - tag: pkg
+    - tag: 15-pkg
+      pkg_name: forgejo
       containerfile: Containerfile.pkg
-    - tag: pkg-latest
+      aliases: ["pkg"]
+    - tag: 15-pkg-latest
+      pkg_name: forgejo
       containerfile: Containerfile.pkg
+      aliases: ["pkg-latest"]
       args:
         BASE_VERSION: "15-latest"
