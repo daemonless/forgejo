@@ -110,7 +110,7 @@ RUN rm -f /etc/services.d/forgejo/run.pkg 2>/dev/null || true
 RUN chmod +x /etc/services.d/*/run /etc/cont-init.d/* 2>/dev/null || true
 
 # --- Expose (Injected by Generator) ---
-EXPOSE 3001 22
+EXPOSE 3000 22
 
 # --- Volumes (Injected by Generator) ---
 VOLUME /config

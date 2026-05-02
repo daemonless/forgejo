@@ -21,7 +21,7 @@ x-daemonless:
     volumes:
       /config: "Configuration, repositories, and data directory"
     ports:
-      3001: "Web UI"
+      3000: "Web UI"
       22: "SSH port"
 
 services:
@@ -40,5 +40,5 @@ services:
       - /path/to/containers/forgejo:/config
 
     ports:
-      - "3000:3001"
+      - "3000:3000"
       - "2222:22"

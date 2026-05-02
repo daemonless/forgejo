@@ -51,7 +51,7 @@ services:
     volumes:
       - "/path/to/containers/forgejo:/config"
     ports:
-      - 3000:3001
+      - 3000:3000
       - 2222:22
     restart: unless-stopped
 ```
@@ -60,7 +60,7 @@ services:
 
 ```bash
 podman run -d --name forgejo \
-  -p 3000:3001 \
+  -p 3000:3000 \
   -p 2222:22 \
   -e PUID=1000 \
   -e PGID=1000 \
@@ -85,7 +85,7 @@ podman run -d --name forgejo \
       TZ: "UTC"
       SSH_PORT: "22"
     ports:
-      - "3000:3001"
+      - "3000:3000"
       - "2222:22"
     volumes:
       - "/path/to/containers/forgejo:/config"
@@ -112,7 +112,7 @@ podman run -d --name forgejo \
 
 | Port | Protocol | Description |
 |------|----------|-------------|
-| `3001` | TCP | Web UI |
+| `3000` | TCP | Web UI |
 | `22` | TCP | SSH port |
 
 **Architectures:** amd64
