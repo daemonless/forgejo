@@ -24,30 +24,21 @@ build:
         UPSTREAM_JQ: "map(select(.tag_name | test(\"^v15\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
         TARBALL_JQ: "map(select(.tag_name | test(\"^v15\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
       aliases: ["lts-latest"]
-    - tag: 11
-      tag_desc: Built from latest upstream source release of the v11 branch.
-      args:
-        UPSTREAM_URL: "https://codeberg.org/api/v1/repos/forgejo/forgejo/releases"
-        UPSTREAM_JQ: "map(select(.tag_name | test(\"^v11\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
-        TARBALL_JQ: "map(select(.tag_name | test(\"^v11\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
-        CLEAN_TARGET: clean
-    - tag: latest
-      tag_desc: Built from latest upstream source release.
-    - tag: lts-pkg
-      pkg_name: forgejo-lts
+#    - tag: 15-pkg
+#      pkg_name: forgejo15
+#      containerfile: Containerfile.pkg
+#      aliases: ["lts-pkg"]
+    - tag: 15-pkg-latest
+      pkg_name: forgejo15
       containerfile: Containerfile.pkg
-    - tag: lts-pkg-latest
-      pkg_name: forgejo-lts
-      containerfile: Containerfile.pkg
+      aliases: ["lts-pkg-latest"]
       args:
         BASE_VERSION: "15-latest"
-    - tag: 14-pkg
-      pkg_name: forgejo
-      containerfile: Containerfile.pkg
-      aliases: ["pkg"]
+#    - tag: 14-pkg
+#      pkg_name: forgejo14
+#      containerfile: Containerfile.pkg
     - tag: 14-pkg-latest
-      pkg_name: forgejo
+      pkg_name: forgejo14
       containerfile: Containerfile.pkg
-      aliases: ["pkg-latest"]
       args:
         BASE_VERSION: "15-latest"

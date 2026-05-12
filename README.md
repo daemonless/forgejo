@@ -23,12 +23,8 @@ Forgejo is a self-hosted lightweight software forge
 | :--- | :--- | :--- |
 | `15` / `lts` | Built from latest upstream source release of the v15 branch. | Alternative build. |
 | `15-latest` / `lts-latest` | Built from latest upstream source release of the v15 branch with latest FreeBSD packages. | Most users. Matches Linux Docker behavior. |
-| `11` | Built from latest upstream source release of the v11 branch. | Alternative build. |
-| `latest` | Built from latest upstream source release. | Alternative build. |
-| `lts-pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `lts-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
-| `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `15-pkg-latest` / `lts-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `14-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 
 ## Prerequisites
 
