@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-13T00:01:18Z",
+  "generated": "2026-05-15T05:59:04Z",
   "image": "forgejo",
   "tags": {
     "14-pkg-latest": {
-      "app_version": "14.0.5_1",
+      "app_version": "14.0.5_2",
       "arch": "amd64",
-      "generated": "2026-05-12T23:51:13Z",
+      "generated": "2026-05-15T05:48:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -151,15 +151,15 @@
           },
           {
             "name": "expat",
-            "version": "2.8.0"
+            "version": "2.8.1"
           },
           {
             "name": "forgejo14",
-            "version": "14.0.5_1"
+            "version": "14.0.5_2"
           },
           {
             "name": "gettext-runtime",
-            "version": "1.0"
+            "version": "1.0_1"
           },
           {
             "name": "git",
@@ -167,7 +167,7 @@
           },
           {
             "name": "git-lfs",
-            "version": "3.6.1_16"
+            "version": "3.6.1_17"
           },
           {
             "name": "indexinfo",
@@ -1301,7 +1301,7 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.25.9"
+            "version": "v1.25.10"
           },
           {
             "name": "xorm.io/builder",
@@ -1378,7 +1378,7 @@
     "15": {
       "app_version": "15.0.2",
       "arch": "amd64",
-      "generated": "2026-05-12T23:58:31Z",
+      "generated": "2026-05-15T05:55:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1524,7 +1524,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.5"
+            "version": "2.8.0"
           },
           {
             "name": "gettext-runtime",
@@ -1536,7 +1536,7 @@
           },
           {
             "name": "git-lfs",
-            "version": "3.6.1_16"
+            "version": "3.6.1_17"
           },
           {
             "name": "indexinfo",
@@ -2743,7 +2743,7 @@
     "15-latest": {
       "app_version": "15.0.2",
       "arch": "amd64",
-      "generated": "2026-05-13T00:00:00Z",
+      "generated": "2026-05-15T05:57:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2889,11 +2889,11 @@
           },
           {
             "name": "expat",
-            "version": "2.8.0"
+            "version": "2.8.1"
           },
           {
             "name": "gettext-runtime",
-            "version": "1.0"
+            "version": "1.0_1"
           },
           {
             "name": "git",
@@ -2901,7 +2901,7 @@
           },
           {
             "name": "git-lfs",
-            "version": "3.6.1_16"
+            "version": "3.6.1_17"
           },
           {
             "name": "indexinfo",
@@ -4106,9 +4106,9 @@
       }
     },
     "15-pkg-latest": {
-      "app_version": "15.0.1",
+      "app_version": "15.0.1_1",
       "arch": "amd64",
-      "generated": "2026-05-12T23:51:12Z",
+      "generated": "2026-05-15T05:46:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4254,15 +4254,15 @@
           },
           {
             "name": "expat",
-            "version": "2.8.0"
+            "version": "2.8.1"
           },
           {
             "name": "forgejo15",
-            "version": "15.0.1"
+            "version": "15.0.1_1"
           },
           {
             "name": "gettext-runtime",
-            "version": "1.0"
+            "version": "1.0_1"
           },
           {
             "name": "git",
@@ -4270,7 +4270,7 @@
           },
           {
             "name": "git-lfs",
-            "version": "3.6.1_16"
+            "version": "3.6.1_17"
           },
           {
             "name": "indexinfo",
@@ -5404,7 +5404,7 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.25.9"
+            "version": "v1.25.10"
           },
           {
             "name": "xorm.io/builder",
