@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-15T05:59:04Z",
+  "generated": "2026-05-16T21:48:22Z",
   "image": "forgejo",
   "tags": {
     "14-pkg-latest": {
       "app_version": "14.0.5_2",
       "arch": "amd64",
-      "generated": "2026-05-15T05:48:41Z",
+      "generated": "2026-05-16T21:37:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -139,7 +139,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "curl",
@@ -1378,7 +1378,7 @@
     "15": {
       "app_version": "15.0.2",
       "arch": "amd64",
-      "generated": "2026-05-15T05:55:18Z",
+      "generated": "2026-05-16T21:47:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1512,7 +1512,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "curl",
@@ -1524,7 +1524,7 @@
           },
           {
             "name": "expat",
-            "version": "2.8.0"
+            "version": "2.8.1"
           },
           {
             "name": "gettext-runtime",
@@ -2743,7 +2743,7 @@
     "15-latest": {
       "app_version": "15.0.2",
       "arch": "amd64",
-      "generated": "2026-05-15T05:57:55Z",
+      "generated": "2026-05-16T21:46:37Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2877,7 +2877,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "curl",
@@ -4106,9 +4106,9 @@
       }
     },
     "15-pkg-latest": {
-      "app_version": "15.0.1_1",
+      "app_version": "15.0.2",
       "arch": "amd64",
-      "generated": "2026-05-15T05:46:59Z",
+      "generated": "2026-05-16T21:38:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4242,7 +4242,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "curl",
@@ -4258,7 +4258,7 @@
           },
           {
             "name": "forgejo15",
-            "version": "15.0.1_1"
+            "version": "15.0.2"
           },
           {
             "name": "gettext-runtime",
@@ -4476,7 +4476,7 @@
           },
           {
             "name": "forgejo.org",
-            "version": "15.0.1"
+            "version": "15.0.2"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -5364,7 +5364,7 @@
           },
           {
             "name": "golang.org/x/sys",
-            "version": "v0.42.0"
+            "version": "v0.43.0"
           },
           {
             "name": "golang.org/x/text",
