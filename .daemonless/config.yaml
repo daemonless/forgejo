@@ -5,6 +5,8 @@ cit:
   port: 3000
   ssim_threshold: 0.85
   ready: "Starting new Web server"
+  puid_ignore:
+    - /config/ssh
 
 build:
   variants:
