@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-16T21:48:22Z",
+  "generated": "2026-05-31T11:55:41Z",
   "image": "forgejo",
   "tags": {
     "14-pkg-latest": {
       "app_version": "14.0.5_2",
       "arch": "amd64",
-      "generated": "2026-05-16T21:37:41Z",
+      "generated": "2026-05-31T11:45:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -51,7 +51,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libexecinfo",
@@ -95,7 +95,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p8"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-ssh",
@@ -111,7 +111,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -139,7 +139,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "curl",
@@ -184,6 +184,10 @@
           {
             "name": "libidn2",
             "version": "2.3.8"
+          },
+          {
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
           },
           {
             "name": "libnghttp2",
@@ -279,7 +283,7 @@
           },
           {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [
@@ -1364,7 +1368,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 68,
+        "freebsd": 69,
         "go": 256,
         "java": 0,
         "node": 0,
@@ -1372,13 +1376,13 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 335
+        "total": 336
       }
     },
     "15": {
       "app_version": "15.0.2",
       "arch": "amd64",
-      "generated": "2026-05-16T21:47:11Z",
+      "generated": "2026-05-31T11:52:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1424,7 +1428,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libexecinfo",
@@ -1468,7 +1472,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p8"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-ssh",
@@ -1484,7 +1488,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -1512,7 +1516,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "curl",
@@ -2743,7 +2747,7 @@
     "15-latest": {
       "app_version": "15.0.2",
       "arch": "amd64",
-      "generated": "2026-05-16T21:46:37Z",
+      "generated": "2026-05-31T11:54:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2789,7 +2793,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libexecinfo",
@@ -2833,7 +2837,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p8"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-ssh",
@@ -2849,7 +2853,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -2877,7 +2881,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "curl",
@@ -2918,6 +2922,10 @@
           {
             "name": "libidn2",
             "version": "2.3.8"
+          },
+          {
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
           },
           {
             "name": "libnghttp2",
@@ -3013,7 +3021,7 @@
           },
           {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [
@@ -4094,7 +4102,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 67,
+        "freebsd": 68,
         "go": 255,
         "java": 0,
         "node": 0,
@@ -4102,13 +4110,13 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 333
+        "total": 334
       }
     },
     "15-pkg-latest": {
       "app_version": "15.0.2",
       "arch": "amd64",
-      "generated": "2026-05-16T21:38:10Z",
+      "generated": "2026-05-31T11:45:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4154,7 +4162,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libexecinfo",
@@ -4198,7 +4206,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p8"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-ssh",
@@ -4214,7 +4222,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -4242,7 +4250,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "curl",
@@ -4287,6 +4295,10 @@
           {
             "name": "libidn2",
             "version": "2.3.8"
+          },
+          {
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
           },
           {
             "name": "libnghttp2",
@@ -4382,7 +4394,7 @@
           },
           {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [
@@ -5467,7 +5479,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 68,
+        "freebsd": 69,
         "go": 256,
         "java": 0,
         "node": 0,
@@ -5475,7 +5487,7 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 335
+        "total": 336
       }
     }
   }
