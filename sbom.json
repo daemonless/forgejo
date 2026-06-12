@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-10T10:11:52Z",
+  "generated": "2026-06-12T16:16:03Z",
   "image": "forgejo",
   "tags": {
     "14-pkg-latest": {
       "app_version": "14.0.5_3",
       "arch": "amd64",
-      "generated": "2026-06-10T10:02:07Z",
+      "generated": "2026-06-12T16:07:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -131,7 +131,7 @@
           },
           {
             "name": "bash",
-            "version": "5.3.12"
+            "version": "5.3.15"
           },
           {
             "name": "brotli",
@@ -1382,7 +1382,7 @@
     "15": {
       "app_version": "15.0.3",
       "arch": "amd64",
-      "generated": "2026-06-10T10:09:49Z",
+      "generated": "2026-06-12T16:12:04Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2735,7 +2735,7 @@
     "15-latest": {
       "app_version": "15.0.3",
       "arch": "amd64",
-      "generated": "2026-06-10T10:10:39Z",
+      "generated": "2026-06-12T16:14:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2861,7 +2861,7 @@
           },
           {
             "name": "bash",
-            "version": "5.3.12"
+            "version": "5.3.15"
           },
           {
             "name": "brotli",
@@ -4090,9 +4090,9 @@
       }
     },
     "15-pkg-latest": {
-      "app_version": "15.0.2_1",
+      "app_version": "15.0.3",
       "arch": "amd64",
-      "generated": "2026-06-10T10:02:43Z",
+      "generated": "2026-06-12T16:05:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4218,7 +4218,7 @@
           },
           {
             "name": "bash",
-            "version": "5.3.12"
+            "version": "5.3.15"
           },
           {
             "name": "brotli",
@@ -4242,7 +4242,7 @@
           },
           {
             "name": "forgejo15",
-            "version": "15.0.2_1"
+            "version": "15.0.3"
           },
           {
             "name": "gettext-runtime",
@@ -4400,7 +4400,7 @@
           },
           {
             "name": "code.forgejo.org/forgejo/levelqueue",
-            "version": "v1.0.0"
+            "version": "v1.1.0"
           },
           {
             "name": "code.forgejo.org/forgejo/reply",
@@ -4408,7 +4408,7 @@
           },
           {
             "name": "code.forgejo.org/forgejo/runner/v12",
-            "version": "v12.8.0"
+            "version": "v12.10.2"
           },
           {
             "name": "code.forgejo.org/forgejo/ssh",
@@ -4456,7 +4456,7 @@
           },
           {
             "name": "connectrpc.com/connect",
-            "version": "v1.19.1"
+            "version": "v1.19.2"
           },
           {
             "name": "filippo.io/edwards25519",
@@ -4464,7 +4464,7 @@
           },
           {
             "name": "forgejo.org",
-            "version": "15.0.2"
+            "version": "15.0.3"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -4596,7 +4596,7 @@
           },
           {
             "name": "github.com/bmatcuk/doublestar/v4",
-            "version": "v4.9.1"
+            "version": "v4.10.0"
           },
           {
             "name": "github.com/bodgit/plumbing",
@@ -4641,6 +4641,10 @@
           {
             "name": "github.com/chi-middleware/proxy",
             "version": "v1.1.1"
+          },
+          {
+            "name": "github.com/clipperhouse/uax29/v2",
+            "version": "v2.7.0"
           },
           {
             "name": "github.com/cloudflare/circl",
@@ -4712,7 +4716,7 @@
           },
           {
             "name": "github.com/fatih/color",
-            "version": "v1.18.0"
+            "version": "v1.19.0"
           },
           {
             "name": "github.com/felixge/fgprof",
@@ -4725,6 +4729,10 @@
           {
             "name": "github.com/fxamacker/cbor/v2",
             "version": "v2.9.0"
+          },
+          {
+            "name": "github.com/gdgvda/cron",
+            "version": "v0.7.0"
           },
           {
             "name": "github.com/git-lfs/git-lfs/v3",
@@ -4785,18 +4793,6 @@
           {
             "name": "github.com/go-fed/httpsig",
             "version": "v1.1.0"
-          },
-          {
-            "name": "github.com/go-git/gcfg",
-            "version": "v1.5.1-0.20230307220236-3a3c6141e376"
-          },
-          {
-            "name": "github.com/go-git/go-billy/v5",
-            "version": "v5.8.0"
-          },
-          {
-            "name": "github.com/go-git/go-git/v5",
-            "version": "v5.18.0"
           },
           {
             "name": "github.com/go-ini/ini",
@@ -4943,10 +4939,6 @@
             "version": "v2.2.2"
           },
           {
-            "name": "github.com/jbenet/go-context",
-            "version": "v0.0.0-20150711004518-d14ea06fba99"
-          },
-          {
             "name": "github.com/jcmturner/aescts/v2",
             "version": "v2.0.0"
           },
@@ -5040,7 +5032,7 @@
           },
           {
             "name": "github.com/mattn/go-runewidth",
-            "version": "v0.0.17"
+            "version": "v0.0.21"
           },
           {
             "name": "github.com/mattn/go-shellwords",
@@ -5188,7 +5180,7 @@
           },
           {
             "name": "github.com/rhysd/actionlint",
-            "version": "v1.7.10"
+            "version": "v1.7.12"
           },
           {
             "name": "github.com/rivo/uniseg",
@@ -5332,11 +5324,11 @@
           },
           {
             "name": "golang.org/x/image",
-            "version": "v0.39.0"
+            "version": "v0.41.0"
           },
           {
             "name": "golang.org/x/mod",
-            "version": "v0.34.0"
+            "version": "v0.35.0"
           },
           {
             "name": "golang.org/x/net",
@@ -5352,7 +5344,7 @@
           },
           {
             "name": "golang.org/x/sys",
-            "version": "v0.43.0"
+            "version": "v0.45.0"
           },
           {
             "name": "golang.org/x/text",
@@ -5372,11 +5364,7 @@
           },
           {
             "name": "gopkg.in/ini.v1",
-            "version": "v1.67.0"
-          },
-          {
-            "name": "gopkg.in/warnings.v0",
-            "version": "v0.1.2"
+            "version": "v1.67.3"
           },
           {
             "name": "gopkg.in/yaml.v2",
@@ -5456,14 +5444,14 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 69,
-        "go": 256,
+        "go": 253,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 336
+        "total": 333
       }
     }
   }
