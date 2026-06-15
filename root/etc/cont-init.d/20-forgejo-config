@@ -8,7 +8,7 @@ chown -R bsd:bsd /config
 
 # If no config exists, create a minimal one
 if [ ! -f /config/custom/conf/app.ini ]; then
-    cat > /config/custom/conf/app.ini << 'EOF'
+    cat > /config/custom/conf/app.ini << EOF
 APP_NAME = Forgejo: Beyond coding. We forge.
 RUN_USER = bsd
 WORK_PATH = /config
@@ -26,7 +26,8 @@ ROOT_URL = http://localhost:3000/
 SSH_DOMAIN = %(DOMAIN)s
 SSH_USER = git
 DISABLE_SSH = false
-SSH_PORT = 22
+SSH_PORT = ${SSH_PORT:-2222}
+SSH_LISTEN_PORT = ${SSH_LISTEN_PORT:-22}
 LFS_START_SERVER = false
 OFFLINE_MODE = true
 

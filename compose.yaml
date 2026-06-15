@@ -17,12 +17,36 @@ x-daemonless:
       PUID: "User ID for the application process"
       PGID: "Group ID for the application process"
       TZ: "Timezone for the container"
-      SSH_PORT: "Port for sshd"
+      SSH_PORT: "Published port for sshd (used in clone URLs)"
+      SSH_LISTEN_PORT: "Port on which sshd listens inside the container"
     volumes:
       /config: "Configuration, repositories, and data directory"
     ports:
       3000: "Web UI"
       22: "SSH port"
+  notes: |
+    ## First run
+    If no configuration file exists when the container starts, it will generate an initial  default
+    config file at `/config/custom/conf/app.ini`.  
+    You can make configuration changes in this file later (e.g. SMTP configuration) and they will be
+    preserved across container restarts.
+
+    ## SSH Setup
+    If you modify the port mapping from the default `2222:22` you need to update the 2 environment variables
+    described below accordingly.
+
+    ### `SSH_LISTEN_PORT` env var
+    This variable indicates on which port Forgejo's ssh server listens inside the container.  
+    If your port mapping for ssh is `2222:22`, this variable should be set to `22`.  
+    This variable is used on every container start to modify the `sshd_config` config file.
+
+    ### `SSH_PORT` env var
+    This variable tells Forgejo on which port the ssh server is reachable from the outside and is
+    used when constructing the `ssh` URLs shown in Forgejo's web UI.  
+    If your port mapping for ssh is `2222:22`, this variable should be set to `2222`.  
+    This variable is used only during the first container startup to create the initial configuration file for Forgejo.
+    If you want to modify the `SSH_PORT` later, you need to change the configuration in the `[server]`
+    section of `/config/custom/conf/app.ini`.
 
 services:
   forgejo:
@@ -34,7 +58,8 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=UTC
-      - SSH_PORT=22 # optional
+      - SSH_PORT=2222
+      - SSH_LISTEN_PORT=22
 
     volumes:
       - /path/to/containers/forgejo:/config
