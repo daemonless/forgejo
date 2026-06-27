@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-15T21:46:11Z",
+  "generated": "2026-06-27T16:49:33Z",
   "image": "forgejo",
   "tags": {
     "14-pkg-latest": {
       "app_version": "14.0.5_3",
       "arch": "amd64",
-      "generated": "2026-06-15T21:35:24Z",
+      "generated": "2026-06-27T16:39:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -179,7 +179,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.2"
+            "version": "3.6.0"
           },
           {
             "name": "libidn2",
@@ -266,8 +266,8 @@
             "version": "2.7.5"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_2"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -1382,7 +1382,7 @@
     "15": {
       "app_version": "15.0.3",
       "arch": "amd64",
-      "generated": "2026-06-15T21:44:57Z",
+      "generated": "2026-06-27T16:47:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1636,7 +1636,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -2735,7 +2735,7 @@
     "15-latest": {
       "app_version": "15.0.3",
       "arch": "amd64",
-      "generated": "2026-06-15T21:43:16Z",
+      "generated": "2026-06-27T16:48:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2905,7 +2905,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.2"
+            "version": "3.6.0"
           },
           {
             "name": "libidn2",
@@ -2992,8 +2992,8 @@
             "version": "2.7.5"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_2"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -4092,7 +4092,7 @@
     "15-pkg-latest": {
       "app_version": "15.0.3",
       "arch": "amd64",
-      "generated": "2026-06-15T21:36:41Z",
+      "generated": "2026-06-27T16:39:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4266,7 +4266,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.2"
+            "version": "3.6.0"
           },
           {
             "name": "libidn2",
@@ -4353,8 +4353,8 @@
             "version": "2.7.5"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_2"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
