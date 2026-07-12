@@ -18,16 +18,13 @@ Forgejo is a self-hosted lightweight software forge
 | **Website** | [https://forgejo.org/](https://forgejo.org/) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `15` / `lts` | Built from latest upstream source release of the v15 branch. | Alternative build. |
 | `15-latest` / `lts-latest` | Built from latest upstream source release of the v15 branch with latest FreeBSD packages. | Most users. Matches Linux Docker behavior. |
 | `15-pkg-latest` / `lts-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
-| `14-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
@@ -143,7 +140,7 @@ section of `/config/custom/conf/app.ini`.
 
 **Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
-**Base:** FreeBSD 15.0
+**Base:** FreeBSD 15
 
 ---
 
