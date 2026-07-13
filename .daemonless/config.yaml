@@ -36,11 +36,3 @@ build:
       aliases: ["lts-pkg-latest"]
       args:
         BASE_VERSION: "15-latest"
-#    - tag: 14-pkg
-#      pkg_name: forgejo14
-#      containerfile: Containerfile.pkg
-    - tag: 14-pkg-latest
-      pkg_name: forgejo14
-      containerfile: Containerfile.pkg
-      args:
-        BASE_VERSION: "15-latest"
