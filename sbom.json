@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-13T01:37:05Z",
+  "generated": "2026-07-15T12:31:58Z",
   "image": "forgejo",
   "tags": {
     "15": {
-      "app_version": "15.0.4",
+      "app_version": "15.0.5",
       "arch": "amd64",
-      "generated": "2026-07-13T01:32:20Z",
+      "generated": "2026-07-15T12:30:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -139,7 +139,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "curl",
@@ -171,7 +171,7 @@
           },
           {
             "name": "jq",
-            "version": "1.8.1"
+            "version": "1.8.2"
           },
           {
             "name": "libffi",
@@ -1312,9 +1312,9 @@
       }
     },
     "15-latest": {
-      "app_version": "15.0.4",
+      "app_version": "15.0.5",
       "arch": "amd64",
-      "generated": "2026-07-13T01:35:55Z",
+      "generated": "2026-07-15T12:30:15Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1448,7 +1448,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "curl",
@@ -2623,7 +2623,7 @@
     "15-pkg-latest": {
       "app_version": "15.0.4",
       "arch": "amd64",
-      "generated": "2026-07-13T01:24:55Z",
+      "generated": "2026-07-15T12:23:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2757,7 +2757,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "curl",
