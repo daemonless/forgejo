@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-15T12:31:58Z",
+  "generated": "2026-07-22T15:45:12Z",
   "image": "forgejo",
   "tags": {
     "15": {
       "app_version": "15.0.5",
       "arch": "amd64",
-      "generated": "2026-07-15T12:30:47Z",
+      "generated": "2026-07-22T15:41:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -67,6 +67,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.0"
           },
           {
@@ -1300,7 +1304,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 68,
+        "freebsd": 69,
         "go": 240,
         "java": 0,
         "node": 0,
@@ -1308,13 +1312,13 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 319
+        "total": 320
       }
     },
     "15-latest": {
       "app_version": "15.0.5",
       "arch": "amd64",
-      "generated": "2026-07-15T12:30:15Z",
+      "generated": "2026-07-22T15:43:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1376,6 +1380,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.0"
           },
           {
@@ -1468,7 +1476,7 @@
           },
           {
             "name": "git",
-            "version": "2.54.0"
+            "version": "2.55.0"
           },
           {
             "name": "git-lfs",
@@ -1484,7 +1492,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.7.1"
           },
           {
             "name": "libidn2",
@@ -1568,7 +1576,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.0_1"
           },
           {
             "name": "python312",
@@ -2609,7 +2617,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 68,
+        "freebsd": 69,
         "go": 240,
         "java": 0,
         "node": 0,
@@ -2617,13 +2625,13 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 319
+        "total": 320
       }
     },
     "15-pkg-latest": {
-      "app_version": "15.0.4",
+      "app_version": "15.0.5",
       "arch": "amd64",
-      "generated": "2026-07-15T12:23:11Z",
+      "generated": "2026-07-22T15:36:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2685,6 +2693,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.0"
           },
           {
@@ -2773,7 +2785,7 @@
           },
           {
             "name": "forgejo15",
-            "version": "15.0.4"
+            "version": "15.0.5"
           },
           {
             "name": "gettext-runtime",
@@ -2781,7 +2793,7 @@
           },
           {
             "name": "git",
-            "version": "2.54.0"
+            "version": "2.55.0"
           },
           {
             "name": "git-lfs",
@@ -2797,7 +2809,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.7.1"
           },
           {
             "name": "libidn2",
@@ -2881,7 +2893,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.0_1"
           },
           {
             "name": "python312",
@@ -2983,7 +2995,7 @@
           },
           {
             "name": "forgejo.org",
-            "version": "15.0.4"
+            "version": "15.0.5"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -3926,7 +3938,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 69,
+        "freebsd": 70,
         "go": 241,
         "java": 0,
         "node": 0,
@@ -3934,7 +3946,7 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 321
+        "total": 322
       }
     }
   }
