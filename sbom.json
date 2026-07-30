@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-22T15:45:12Z",
+  "generated": "2026-07-30T23:51:38Z",
   "image": "forgejo",
   "tags": {
     "15": {
-      "app_version": "15.0.5",
+      "app_version": "15.0.6",
       "arch": "amd64",
-      "generated": "2026-07-22T15:41:56Z",
+      "generated": "2026-07-30T23:49:28Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -75,7 +75,7 @@
           },
           {
             "name": "FreeBSD-mtree",
-            "version": "15.0"
+            "version": "15.0p12"
           },
           {
             "name": "FreeBSD-ncurses-lib",
@@ -99,7 +99,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p11"
+            "version": "15.0p12"
           },
           {
             "name": "FreeBSD-ssh",
@@ -131,7 +131,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0p7"
+            "version": "15.0p12"
           },
           {
             "name": "bash",
@@ -381,7 +381,7 @@
           },
           {
             "name": "github.com/Azure/go-ntlmssp",
-            "version": "v0.0.0-20221128193559-754e69321358"
+            "version": "v0.1.1"
           },
           {
             "name": "github.com/ProtonMail/go-crypto",
@@ -649,11 +649,11 @@
           },
           {
             "name": "github.com/go-asn1-ber/asn1-ber",
-            "version": "v1.5.8-0.20250403174932-29230038a667"
+            "version": "v1.5.8"
           },
           {
             "name": "github.com/go-chi/chi/v5",
-            "version": "v5.2.5"
+            "version": "v5.3.0"
           },
           {
             "name": "github.com/go-chi/cors",
@@ -677,7 +677,7 @@
           },
           {
             "name": "github.com/go-ldap/ldap/v3",
-            "version": "v3.4.12"
+            "version": "v3.4.14"
           },
           {
             "name": "github.com/go-sql-driver/mysql",
@@ -853,7 +853,7 @@
           },
           {
             "name": "github.com/klauspost/compress",
-            "version": "v1.18.4"
+            "version": "v1.18.7"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -1185,7 +1185,7 @@
           },
           {
             "name": "golang.org/x/crypto",
-            "version": "v0.52.0"
+            "version": "v0.54.0"
           },
           {
             "name": "golang.org/x/image",
@@ -1193,11 +1193,11 @@
           },
           {
             "name": "golang.org/x/mod",
-            "version": "v0.36.0"
+            "version": "v0.37.0"
           },
           {
             "name": "golang.org/x/net",
-            "version": "v0.55.0"
+            "version": "v0.57.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -1205,15 +1205,15 @@
           },
           {
             "name": "golang.org/x/sync",
-            "version": "v0.21.0"
+            "version": "v0.22.0"
           },
           {
             "name": "golang.org/x/sys",
-            "version": "v0.45.0"
+            "version": "v0.47.0"
           },
           {
             "name": "golang.org/x/text",
-            "version": "v0.38.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/time",
@@ -1316,9 +1316,9 @@
       }
     },
     "15-latest": {
-      "app_version": "15.0.5",
+      "app_version": "15.0.6",
       "arch": "amd64",
-      "generated": "2026-07-22T15:43:55Z",
+      "generated": "2026-07-30T23:50:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1388,7 +1388,7 @@
           },
           {
             "name": "FreeBSD-mtree",
-            "version": "15.0"
+            "version": "15.0p12"
           },
           {
             "name": "FreeBSD-ncurses-lib",
@@ -1412,7 +1412,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p11"
+            "version": "15.0p12"
           },
           {
             "name": "FreeBSD-ssh",
@@ -1444,7 +1444,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0p7"
+            "version": "15.0p12"
           },
           {
             "name": "bash",
@@ -1576,7 +1576,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.8.0_1"
+            "version": "2.8.1_1"
           },
           {
             "name": "python312",
@@ -1694,7 +1694,7 @@
           },
           {
             "name": "github.com/Azure/go-ntlmssp",
-            "version": "v0.0.0-20221128193559-754e69321358"
+            "version": "v0.1.1"
           },
           {
             "name": "github.com/ProtonMail/go-crypto",
@@ -1962,11 +1962,11 @@
           },
           {
             "name": "github.com/go-asn1-ber/asn1-ber",
-            "version": "v1.5.8-0.20250403174932-29230038a667"
+            "version": "v1.5.8"
           },
           {
             "name": "github.com/go-chi/chi/v5",
-            "version": "v5.2.5"
+            "version": "v5.3.0"
           },
           {
             "name": "github.com/go-chi/cors",
@@ -1990,7 +1990,7 @@
           },
           {
             "name": "github.com/go-ldap/ldap/v3",
-            "version": "v3.4.12"
+            "version": "v3.4.14"
           },
           {
             "name": "github.com/go-sql-driver/mysql",
@@ -2166,7 +2166,7 @@
           },
           {
             "name": "github.com/klauspost/compress",
-            "version": "v1.18.4"
+            "version": "v1.18.7"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -2498,7 +2498,7 @@
           },
           {
             "name": "golang.org/x/crypto",
-            "version": "v0.52.0"
+            "version": "v0.54.0"
           },
           {
             "name": "golang.org/x/image",
@@ -2506,11 +2506,11 @@
           },
           {
             "name": "golang.org/x/mod",
-            "version": "v0.36.0"
+            "version": "v0.37.0"
           },
           {
             "name": "golang.org/x/net",
-            "version": "v0.55.0"
+            "version": "v0.57.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -2518,15 +2518,15 @@
           },
           {
             "name": "golang.org/x/sync",
-            "version": "v0.21.0"
+            "version": "v0.22.0"
           },
           {
             "name": "golang.org/x/sys",
-            "version": "v0.45.0"
+            "version": "v0.47.0"
           },
           {
             "name": "golang.org/x/text",
-            "version": "v0.38.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/time",
@@ -2631,7 +2631,7 @@
     "15-pkg-latest": {
       "app_version": "15.0.5",
       "arch": "amd64",
-      "generated": "2026-07-22T15:36:27Z",
+      "generated": "2026-07-30T23:42:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2701,7 +2701,7 @@
           },
           {
             "name": "FreeBSD-mtree",
-            "version": "15.0"
+            "version": "15.0p12"
           },
           {
             "name": "FreeBSD-ncurses-lib",
@@ -2725,7 +2725,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p11"
+            "version": "15.0p12"
           },
           {
             "name": "FreeBSD-ssh",
@@ -2757,7 +2757,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0p7"
+            "version": "15.0p12"
           },
           {
             "name": "bash",
@@ -2893,7 +2893,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.8.0_1"
+            "version": "2.8.1_1"
           },
           {
             "name": "python312",
