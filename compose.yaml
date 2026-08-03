@@ -27,7 +27,7 @@ x-daemonless:
   notes: |
     ## First run
     If no configuration file exists when the container starts, it will generate an initial  default
-    config file at `/config/custom/conf/app.ini`.  
+    config file at `/config/custom/conf/app.ini`.
     You can make configuration changes in this file later (e.g. SMTP configuration) and they will be
     preserved across container restarts.
 
@@ -36,14 +36,14 @@ x-daemonless:
     described below accordingly.
 
     ### `SSH_LISTEN_PORT` env var
-    This variable indicates on which port Forgejo's ssh server listens inside the container.  
-    If your port mapping for ssh is `2222:22`, this variable should be set to `22`.  
+    This variable indicates on which port Forgejo's ssh server listens inside the container.
+    If your port mapping for ssh is `2222:22`, this variable should be set to `22`.
     This variable is used on every container start to modify the `sshd_config` config file.
 
     ### `SSH_PORT` env var
     This variable tells Forgejo on which port the ssh server is reachable from the outside and is
-    used when constructing the `ssh` URLs shown in Forgejo's web UI.  
-    If your port mapping for ssh is `2222:22`, this variable should be set to `2222`.  
+    used when constructing the `ssh` URLs shown in Forgejo's web UI.
+    If your port mapping for ssh is `2222:22`, this variable should be set to `2222`.
     This variable is used only during the first container startup to create the initial configuration file for Forgejo.
     If you want to modify the `SSH_PORT` later, you need to change the configuration in the `[server]`
     section of `/config/custom/conf/app.ini`.
