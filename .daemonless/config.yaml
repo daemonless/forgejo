@@ -36,3 +36,24 @@ build:
       aliases: ["lts-pkg-latest"]
       args:
         BASE_VERSION: "15-latest"
+    - tag: 16
+      tag_desc: Built from latest upstream source release of the v16 branch.
+      args:
+        UPSTREAM_URL: "https://codeberg.org/api/v1/repos/forgejo/forgejo/releases"
+        UPSTREAM_JQ: "map(select(.tag_name | test(\"^v16\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
+        TARBALL_JQ: "map(select(.tag_name | test(\"^v16\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
+    - tag: 16-latest
+      tag_desc: Built from latest upstream source release of the v16 branch with latest FreeBSD packages.
+      args:
+        BASE_VERSION: "15-latest"
+        UPSTREAM_URL: "https://codeberg.org/api/v1/repos/forgejo/forgejo/releases"
+        UPSTREAM_JQ: "map(select(.tag_name | test(\"^v16\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
+        TARBALL_JQ: "map(select(.tag_name | test(\"^v16\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
+#    - tag: 16-pkg
+#      pkg_name: forgejo16
+#      containerfile: Containerfile.pkg
+    - tag: 16-pkg-latest
+      pkg_name: forgejo16
+      containerfile: Containerfile.pkg
+      args:
+        BASE_VERSION: "15-latest"
