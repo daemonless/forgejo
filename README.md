@@ -23,6 +23,9 @@ Forgejo is a self-hosted lightweight software forge
 | `15` / `lts` | Built from latest upstream source release of the v15 branch. | Alternative build. |
 | `15-latest` / `lts-latest` | Built from latest upstream source release of the v15 branch with latest FreeBSD packages. | Most users. Matches Linux Docker behavior. |
 | `15-pkg-latest` / `lts-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `16` | Built from latest upstream source release of the v16 branch. | Alternative build. |
+| `16-latest` | Built from latest upstream source release of the v16 branch with latest FreeBSD packages. | Alternative build. |
+| `16-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
@@ -50,6 +53,62 @@ services:
     restart: unless-stopped
 ```
 
+### AppJail Director
+**.env**:
+
+```
+# .env
+
+DIRECTOR_PROJECT=forgejo
+PUID=1000
+PGID=1000
+TZ=UTC
+SSH_PORT=2222
+SSH_LISTEN_PORT=22
+```
+
+**appjail-director.yml**:
+
+```yaml
+# appjail-director.yml
+
+options:
+  - virtualnet: ':<random> default'
+  - nat:
+services:
+  forgejo:
+    name: forgejo
+    options:
+      - container: 'boot args:--pull'
+      - expose: '3000:3000 proto:tcp' \
+      - expose: '2222:22 proto:tcp' \
+    oci:
+      user: root
+      environment:
+        - PUID: !ENV '${PUID}'
+        - PGID: !ENV '${PGID}'
+        - TZ: !ENV '${TZ}'
+        - SSH_PORT: !ENV '${SSH_PORT}'
+        - SSH_LISTEN_PORT: !ENV '${SSH_LISTEN_PORT}'
+    volumes:
+      - forgejo: /config
+volumes:
+  forgejo:
+    device: '/path/to/containers/forgejo'
+```
+
+**Makejail**:
+
+```
+# Makejail
+
+ARG tag=15
+
+OPTION overwrite=force
+OPTION from=ghcr.io/daemonless/forgejo:${tag}
+```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
+
 ### Podman CLI
 
 ```bash
@@ -64,6 +123,26 @@ podman run -d --name forgejo \
   -v /path/to/containers/forgejo:/config \
   ghcr.io/daemonless/forgejo:latest
 ```
+
+### AppJail
+
+```bash
+appjail oci run -Pd \
+  -o overwrite=force \
+  -o container="args:--pull" \
+  -o virtualnet=":<random> default" \
+  -o nat \
+  -o expose="3000:3000 proto:tcp" \
+  -o expose="2222:22 proto:tcp" \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=UTC \
+  -e SSH_PORT=2222 \
+  -e SSH_LISTEN_PORT=22 \
+  -o fstab="/path/to/containers/forgejo /config <pseudofs>" \
+  ghcr.io/daemonless/forgejo:latest forgejo
+```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Ansible
 
@@ -116,7 +195,7 @@ Access at: `http://localhost:3000`
 
 ## First run
 If no configuration file exists when the container starts, it will generate an initial  default
-config file at `/config/custom/conf/app.ini`.  
+config file at `/config/custom/conf/app.ini`.
 You can make configuration changes in this file later (e.g. SMTP configuration) and they will be
 preserved across container restarts.
 
@@ -125,14 +204,14 @@ If you modify the port mapping from the default `2222:22` you need to update the
 described below accordingly.
 
 ### `SSH_LISTEN_PORT` env var
-This variable indicates on which port Forgejo's ssh server listens inside the container.  
-If your port mapping for ssh is `2222:22`, this variable should be set to `22`.  
+This variable indicates on which port Forgejo's ssh server listens inside the container.
+If your port mapping for ssh is `2222:22`, this variable should be set to `22`.
 This variable is used on every container start to modify the `sshd_config` config file.
 
 ### `SSH_PORT` env var
 This variable tells Forgejo on which port the ssh server is reachable from the outside and is
-used when constructing the `ssh` URLs shown in Forgejo's web UI.  
-If your port mapping for ssh is `2222:22`, this variable should be set to `2222`.  
+used when constructing the `ssh` URLs shown in Forgejo's web UI.
+If your port mapping for ssh is `2222:22`, this variable should be set to `2222`.
 This variable is used only during the first container startup to create the initial configuration file for Forgejo.
 If you want to modify the `SSH_PORT` later, you need to change the configuration in the `[server]`
 section of `/config/custom/conf/app.ini`.
