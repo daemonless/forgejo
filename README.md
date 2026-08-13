@@ -21,11 +21,11 @@ Forgejo is a self-hosted lightweight software forge
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `15` / `lts` | Built from latest upstream source release of the v15 branch. | Alternative build. |
-| `15-latest` / `lts-latest` | Built from latest upstream source release of the v15 branch with latest FreeBSD packages. | Most users. Matches Linux Docker behavior. |
-| `15-pkg-latest` / `lts-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `15-latest` / `lts-latest` | Built from latest upstream source release of the v15 branch with latest FreeBSD packages. | Most users — recommended. |
+| `15-pkg-latest` / `lts-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 | `16` | Built from latest upstream source release of the v16 branch. | Alternative build. |
 | `16-latest` | Built from latest upstream source release of the v16 branch with latest FreeBSD packages. | Alternative build. |
-| `16-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `16-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
@@ -80,8 +80,8 @@ services:
     name: forgejo
     options:
       - container: 'boot args:--pull'
-      - expose: '3000:3000 proto:tcp' \
-      - expose: '2222:22 proto:tcp' \
+      - expose: '3000:3000 proto:tcp'
+      - expose: '2222:22 proto:tcp'
     oci:
       user: root
       environment:
@@ -219,7 +219,7 @@ section of `/config/custom/conf/app.ini`.
 
 **Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
-**Base:** FreeBSD 15
+**Base:** FreeBSD 15.1
 
 ---
 

@@ -10,7 +10,7 @@ FROM ghcr.io/daemonless/base:${BASE_VERSION}
 ARG PKG_NAME="forgejo"
 
 ARG FREEBSD_ARCH=amd64
-ARG PACKAGES="FreeBSD-ssh devel/git-lfs shells/bash ${PKG_NAME}"
+ARG PACKAGES="FreeBSD-pam FreeBSD-ssh devel/git-lfs shells/bash ${PKG_NAME}"
 ARG UPSTREAM_URL="https://codeberg.org/api/v1/repos/forgejo/forgejo/releases/latest"
 ARG UPSTREAM_JQ=".tag_name"
 ARG HEALTHCHECK_ENDPOINT="http://localhost:3000/api/healthz"
