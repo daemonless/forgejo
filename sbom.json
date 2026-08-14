@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-06T13:42:28Z",
+  "generated": "2026-08-14T06:20:33Z",
   "image": "forgejo",
   "tags": {
     "15": {
       "app_version": "15.0.6",
       "arch": "amd64",
-      "generated": "2026-08-06T07:31:05Z",
+      "generated": "2026-08-14T06:19:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -147,6 +147,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam",
             "version": "15.1"
           },
           {
@@ -475,7 +482,7 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
@@ -1790,7 +1797,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 71,
+        "freebsd": 72,
         "go": 240,
         "java": 0,
         "node": 0,
@@ -1798,13 +1805,13 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 322
+        "total": 323
       }
     },
     "15-latest": {
       "app_version": "15.0.6",
       "arch": "amd64",
-      "generated": "2026-08-06T07:38:43Z",
+      "generated": "2026-08-13T20:30:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1946,6 +1953,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam",
             "version": "15.1"
           },
           {
@@ -2281,14 +2295,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.1_1"
+            "version": "2.8.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_3"
+            "version": "3.12.13_4"
           },
           {
             "licenses": [
@@ -3589,7 +3603,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 71,
+        "freebsd": 72,
         "go": 240,
         "java": 0,
         "node": 0,
@@ -3597,13 +3611,13 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 322
+        "total": 323
       }
     },
     "15-pkg-latest": {
       "app_version": "15.0.6",
       "arch": "amd64",
-      "generated": "2026-08-06T07:31:47Z",
+      "generated": "2026-08-13T20:22:28Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3745,6 +3759,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam",
             "version": "15.1"
           },
           {
@@ -4087,14 +4108,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.1_1"
+            "version": "2.8.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_3"
+            "version": "3.12.13_4"
           },
           {
             "licenses": [
@@ -5325,7 +5346,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.25.12"
+            "version": "v1.26.5"
           },
           {
             "name": "xorm.io/builder",
@@ -5400,7 +5421,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 72,
+        "freebsd": 73,
         "go": 241,
         "java": 0,
         "node": 0,
@@ -5408,13 +5429,13 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 324
+        "total": 325
       }
     },
     "16": {
       "app_version": "16.0.2",
       "arch": "amd64",
-      "generated": "2026-08-06T13:40:30Z",
+      "generated": "2026-08-13T20:31:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5556,6 +5577,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam",
             "version": "15.1"
           },
           {
@@ -5884,7 +5912,7 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
@@ -7249,7 +7277,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 71,
+        "freebsd": 72,
         "go": 250,
         "java": 0,
         "node": 0,
@@ -7257,13 +7285,13 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 332
+        "total": 333
       }
     },
     "16-latest": {
       "app_version": "16.0.2",
       "arch": "amd64",
-      "generated": "2026-08-06T13:38:59Z",
+      "generated": "2026-08-13T20:30:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7405,6 +7433,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam",
             "version": "15.1"
           },
           {
@@ -7740,14 +7775,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.1_1"
+            "version": "2.8.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_3"
+            "version": "3.12.13_4"
           },
           {
             "licenses": [
@@ -9098,7 +9133,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 71,
+        "freebsd": 72,
         "go": 250,
         "java": 0,
         "node": 0,
@@ -9106,13 +9141,13 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 332
+        "total": 333
       }
     },
     "16-pkg-latest": {
       "app_version": "16.0.2",
       "arch": "amd64",
-      "generated": "2026-08-06T07:25:45Z",
+      "generated": "2026-08-13T20:22:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9254,6 +9289,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam",
             "version": "15.1"
           },
           {
@@ -9596,14 +9638,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.1_1"
+            "version": "2.8.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_3"
+            "version": "3.12.13_4"
           },
           {
             "licenses": [
@@ -10884,7 +10926,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.25.12"
+            "version": "v1.26.5"
           },
           {
             "name": "xorm.io/builder",
@@ -10959,7 +11001,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 72,
+        "freebsd": 73,
         "go": 251,
         "java": 0,
         "node": 0,
@@ -10967,7 +11009,7 @@
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 334
+        "total": 335
       }
     }
   }
