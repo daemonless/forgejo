@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-18T07:53:49Z",
+  "generated": "2026-08-21T20:41:10Z",
   "image": "forgejo",
   "tags": {
     "15": {
-      "app_version": "15.0.6",
+      "app_version": "15.0.7",
       "arch": "amd64",
-      "generated": "2026-08-18T07:48:24Z",
+      "generated": "2026-08-21T20:38:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -266,7 +266,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -496,7 +496,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -1652,22 +1652,22 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.54.0"
+            "version": "v0.55.0"
           },
           {
             "name": "golang.org/x/image",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.45.0"
           },
           {
             "name": "golang.org/x/mod",
             "purl": "",
-            "version": "v0.37.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -1687,7 +1687,7 @@
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.40.0"
+            "version": "v0.41.0"
           },
           {
             "name": "golang.org/x/time",
@@ -1722,7 +1722,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.6"
+            "version": "v1.26.7"
           },
           {
             "name": "xorm.io/builder",
@@ -1809,9 +1809,9 @@
       }
     },
     "15-latest": {
-      "app_version": "15.0.6",
+      "app_version": "15.0.7",
       "arch": "amd64",
-      "generated": "2026-08-18T07:48:45Z",
+      "generated": "2026-08-21T20:37:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2072,7 +2072,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -2115,7 +2115,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_20"
+            "version": "3.6.1_21"
           },
           {
             "licenses": [
@@ -2136,7 +2136,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -2165,7 +2165,7 @@
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.22.0"
+            "version": "0.23.0"
           },
           {
             "licenses": [
@@ -3458,22 +3458,22 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.54.0"
+            "version": "v0.55.0"
           },
           {
             "name": "golang.org/x/image",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.45.0"
           },
           {
             "name": "golang.org/x/mod",
             "purl": "",
-            "version": "v0.37.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -3493,7 +3493,7 @@
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.40.0"
+            "version": "v0.41.0"
           },
           {
             "name": "golang.org/x/time",
@@ -3528,7 +3528,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.6"
+            "version": "v1.26.7"
           },
           {
             "name": "xorm.io/builder",
@@ -3615,9 +3615,9 @@
       }
     },
     "15-pkg-latest": {
-      "app_version": "15.0.6_1",
+      "app_version": "15.0.6_2",
       "arch": "amd64",
-      "generated": "2026-08-18T07:42:32Z",
+      "generated": "2026-08-21T20:31:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3878,7 +3878,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -3906,7 +3906,7 @@
               "GPLv3+"
             ],
             "name": "forgejo15",
-            "version": "15.0.6_1"
+            "version": "15.0.6_2"
           },
           {
             "licenses": [
@@ -3928,7 +3928,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_20"
+            "version": "3.6.1_21"
           },
           {
             "licenses": [
@@ -3949,7 +3949,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -3978,7 +3978,7 @@
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.22.0"
+            "version": "0.23.0"
           },
           {
             "licenses": [
@@ -5346,7 +5346,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.6"
+            "version": "v1.26.7"
           },
           {
             "name": "xorm.io/builder",
@@ -5433,9 +5433,9 @@
       }
     },
     "16": {
-      "app_version": "16.0.2",
+      "app_version": "16.0.3",
       "arch": "amd64",
-      "generated": "2026-08-18T07:52:50Z",
+      "generated": "2026-08-21T20:40:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5696,7 +5696,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -5926,7 +5926,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -7122,22 +7122,22 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.54.0"
+            "version": "v0.55.0"
           },
           {
             "name": "golang.org/x/image",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.45.0"
           },
           {
             "name": "golang.org/x/mod",
             "purl": "",
-            "version": "v0.37.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -7157,7 +7157,7 @@
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.40.0"
+            "version": "v0.41.0"
           },
           {
             "name": "golang.org/x/time",
@@ -7202,7 +7202,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.6"
+            "version": "v1.26.7"
           },
           {
             "name": "xorm.io/builder",
@@ -7289,9 +7289,9 @@
       }
     },
     "16-latest": {
-      "app_version": "16.0.2",
+      "app_version": "16.0.3",
       "arch": "amd64",
-      "generated": "2026-08-18T07:49:43Z",
+      "generated": "2026-08-21T20:39:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7552,7 +7552,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -7595,7 +7595,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_20"
+            "version": "3.6.1_21"
           },
           {
             "licenses": [
@@ -7616,7 +7616,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -7645,7 +7645,7 @@
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.22.0"
+            "version": "0.23.0"
           },
           {
             "licenses": [
@@ -8978,22 +8978,22 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.54.0"
+            "version": "v0.55.0"
           },
           {
             "name": "golang.org/x/image",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.45.0"
           },
           {
             "name": "golang.org/x/mod",
             "purl": "",
-            "version": "v0.37.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -9013,7 +9013,7 @@
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.40.0"
+            "version": "v0.41.0"
           },
           {
             "name": "golang.org/x/time",
@@ -9058,7 +9058,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.6"
+            "version": "v1.26.7"
           },
           {
             "name": "xorm.io/builder",
@@ -9145,9 +9145,9 @@
       }
     },
     "16-pkg-latest": {
-      "app_version": "16.0.2_1",
+      "app_version": "16.0.2_2",
       "arch": "amd64",
-      "generated": "2026-08-18T07:42:07Z",
+      "generated": "2026-08-21T20:31:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9408,7 +9408,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -9436,7 +9436,7 @@
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.2_1"
+            "version": "16.0.2_2"
           },
           {
             "licenses": [
@@ -9458,7 +9458,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_20"
+            "version": "3.6.1_21"
           },
           {
             "licenses": [
@@ -9479,7 +9479,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -9508,7 +9508,7 @@
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.22.0"
+            "version": "0.23.0"
           },
           {
             "licenses": [
@@ -10926,7 +10926,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.6"
+            "version": "v1.26.7"
           },
           {
             "name": "xorm.io/builder",
