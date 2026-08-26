@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-21T20:41:10Z",
+  "generated": "2026-08-26T17:14:55Z",
   "image": "forgejo",
   "tags": {
     "15": {
       "app_version": "15.0.7",
       "arch": "amd64",
-      "generated": "2026-08-21T20:38:18Z",
+      "generated": "2026-08-26T17:12:42Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -147,7 +147,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -182,7 +182,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -309,7 +309,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_20"
+            "version": "3.6.1_21"
           },
           {
             "licenses": [
@@ -1811,7 +1811,7 @@
     "15-latest": {
       "app_version": "15.0.7",
       "arch": "amd64",
-      "generated": "2026-08-21T20:37:24Z",
+      "generated": "2026-08-26T17:10:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1953,7 +1953,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -1988,7 +1988,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -2093,7 +2093,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
@@ -2158,14 +2158,14 @@
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.69.0"
+            "version": "1.70.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.23.0"
+            "version": "0.23.3"
           },
           {
             "licenses": [
@@ -3615,9 +3615,9 @@
       }
     },
     "15-pkg-latest": {
-      "app_version": "15.0.6_2",
+      "app_version": "15.0.7",
       "arch": "amd64",
-      "generated": "2026-08-21T20:31:08Z",
+      "generated": "2026-08-26T17:03:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3759,7 +3759,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -3794,7 +3794,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -3899,14 +3899,14 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
               "GPLv3+"
             ],
             "name": "forgejo15",
-            "version": "15.0.6_2"
+            "version": "15.0.7"
           },
           {
             "licenses": [
@@ -3971,14 +3971,14 @@
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.69.0"
+            "version": "1.70.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.23.0"
+            "version": "0.23.3"
           },
           {
             "licenses": [
@@ -4246,7 +4246,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "15.0.6"
+            "version": "15.0.7"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -5281,12 +5281,12 @@
           {
             "name": "golang.org/x/image",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.45.0"
           },
           {
             "name": "golang.org/x/mod",
             "purl": "",
-            "version": "v0.37.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/net",
@@ -5435,7 +5435,7 @@
     "16": {
       "app_version": "16.0.3",
       "arch": "amd64",
-      "generated": "2026-08-21T20:40:25Z",
+      "generated": "2026-08-26T17:12:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5577,7 +5577,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -5612,7 +5612,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -5739,7 +5739,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_20"
+            "version": "3.6.1_21"
           },
           {
             "licenses": [
@@ -7291,7 +7291,7 @@
     "16-latest": {
       "app_version": "16.0.3",
       "arch": "amd64",
-      "generated": "2026-08-21T20:39:39Z",
+      "generated": "2026-08-26T17:14:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7433,7 +7433,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -7468,7 +7468,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -7573,7 +7573,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
@@ -7638,14 +7638,14 @@
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.69.0"
+            "version": "1.70.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.23.0"
+            "version": "0.23.3"
           },
           {
             "licenses": [
@@ -9145,9 +9145,9 @@
       }
     },
     "16-pkg-latest": {
-      "app_version": "16.0.2_2",
+      "app_version": "16.0.3",
       "arch": "amd64",
-      "generated": "2026-08-21T20:31:17Z",
+      "generated": "2026-08-26T17:05:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9289,7 +9289,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -9324,7 +9324,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -9429,14 +9429,14 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.2_2"
+            "version": "16.0.3"
           },
           {
             "licenses": [
@@ -9501,14 +9501,14 @@
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.69.0"
+            "version": "1.70.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.23.0"
+            "version": "0.23.3"
           },
           {
             "licenses": [
@@ -9776,7 +9776,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "16.0.2"
+            "version": "16.0.3"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -10851,12 +10851,12 @@
           {
             "name": "golang.org/x/image",
             "purl": "",
-            "version": "v0.43.0"
+            "version": "v0.45.0"
           },
           {
             "name": "golang.org/x/mod",
             "purl": "",
-            "version": "v0.37.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/net",
