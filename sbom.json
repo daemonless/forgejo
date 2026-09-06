@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-26T17:14:55Z",
+  "generated": "2026-09-06T18:03:19Z",
   "image": "forgejo",
   "tags": {
     "15": {
       "app_version": "15.0.7",
       "arch": "amd64",
-      "generated": "2026-08-26T17:12:42Z",
+      "generated": "2026-09-06T18:00:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -266,7 +266,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -1811,7 +1811,7 @@
     "15-latest": {
       "app_version": "15.0.7",
       "arch": "amd64",
-      "generated": "2026-08-26T17:10:33Z",
+      "generated": "2026-09-06T18:02:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2072,7 +2072,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -2115,7 +2115,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_21"
+            "version": "3.6.1_22"
           },
           {
             "licenses": [
@@ -2280,7 +2280,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -3528,7 +3528,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.7"
+            "version": "v1.26.8"
           },
           {
             "name": "xorm.io/builder",
@@ -3615,9 +3615,9 @@
       }
     },
     "15-pkg-latest": {
-      "app_version": "15.0.7",
+      "app_version": "15.0.7_1",
       "arch": "amd64",
-      "generated": "2026-08-26T17:03:29Z",
+      "generated": "2026-09-06T17:52:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3878,7 +3878,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -3906,7 +3906,7 @@
               "GPLv3+"
             ],
             "name": "forgejo15",
-            "version": "15.0.7"
+            "version": "15.0.7_1"
           },
           {
             "licenses": [
@@ -3928,7 +3928,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_21"
+            "version": "3.6.1_22"
           },
           {
             "licenses": [
@@ -4093,7 +4093,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -5346,7 +5346,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.7"
+            "version": "v1.26.8"
           },
           {
             "name": "xorm.io/builder",
@@ -5435,7 +5435,7 @@
     "16": {
       "app_version": "16.0.3",
       "arch": "amd64",
-      "generated": "2026-08-26T17:12:30Z",
+      "generated": "2026-09-06T18:01:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5696,7 +5696,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -7291,7 +7291,7 @@
     "16-latest": {
       "app_version": "16.0.3",
       "arch": "amd64",
-      "generated": "2026-08-26T17:14:10Z",
+      "generated": "2026-09-06T18:01:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7552,7 +7552,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -7595,7 +7595,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_21"
+            "version": "3.6.1_22"
           },
           {
             "licenses": [
@@ -7760,7 +7760,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -9058,7 +9058,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.7"
+            "version": "v1.26.8"
           },
           {
             "name": "xorm.io/builder",
@@ -9145,9 +9145,9 @@
       }
     },
     "16-pkg-latest": {
-      "app_version": "16.0.3",
+      "app_version": "16.0.3_1",
       "arch": "amd64",
-      "generated": "2026-08-26T17:05:11Z",
+      "generated": "2026-09-06T17:53:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9408,7 +9408,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -9436,7 +9436,7 @@
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.3"
+            "version": "16.0.3_1"
           },
           {
             "licenses": [
@@ -9458,7 +9458,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_21"
+            "version": "3.6.1_22"
           },
           {
             "licenses": [
@@ -9623,7 +9623,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -10926,7 +10926,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.7"
+            "version": "v1.26.8"
           },
           {
             "name": "xorm.io/builder",
