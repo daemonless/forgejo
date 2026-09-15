@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-10T13:07:50Z",
+  "generated": "2026-09-15T22:15:10Z",
   "image": "forgejo",
   "tags": {
     "15": {
       "app_version": "15.0.8",
       "arch": "amd64",
-      "generated": "2026-09-10T13:05:03Z",
+      "generated": "2026-09-15T22:14:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -266,7 +266,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -1786,7 +1786,7 @@
     "15-latest": {
       "app_version": "15.0.8",
       "arch": "amd64",
-      "generated": "2026-09-10T13:05:23Z",
+      "generated": "2026-09-15T22:10:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2047,14 +2047,14 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "curl",
-            "version": "8.21.0"
+            "version": "8.22.0"
           },
           {
             "licenses": [
@@ -3565,9 +3565,9 @@
       }
     },
     "15-pkg-latest": {
-      "app_version": "15.0.7_1",
+      "app_version": "15.0.8",
       "arch": "amd64",
-      "generated": "2026-09-10T12:57:59Z",
+      "generated": "2026-09-15T22:02:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3828,14 +3828,14 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "curl",
-            "version": "8.21.0"
+            "version": "8.22.0"
           },
           {
             "licenses": [
@@ -3856,7 +3856,7 @@
               "GPLv3+"
             ],
             "name": "forgejo15",
-            "version": "15.0.7_1"
+            "version": "15.0.8"
           },
           {
             "licenses": [
@@ -4161,17 +4161,17 @@
           {
             "name": "code.forgejo.org/go-chi/captcha",
             "purl": "",
-            "version": "v1.0.2"
+            "version": "v1.0.3"
           },
           {
             "name": "code.forgejo.org/go-chi/session",
             "purl": "",
-            "version": "v1.0.3"
+            "version": "v1.1.0"
           },
           {
             "name": "code.forgejo.org/xorm/xorm",
             "purl": "",
-            "version": "v1.3.9-forgejo.11"
+            "version": "v1.4.1"
           },
           {
             "name": "code.gitea.io/sdk/gitea",
@@ -4191,12 +4191,12 @@
           {
             "name": "filippo.io/edwards25519",
             "purl": "",
-            "version": "v1.1.1"
+            "version": "v1.2.0"
           },
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "15.0.7"
+            "version": "15.0.8"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -4386,7 +4386,7 @@
           {
             "name": "github.com/bradfitz/gomemcache",
             "purl": "",
-            "version": "v0.0.0-20250403215159-8d39553ac7cf"
+            "version": "v0.0.0-20260422231931-4d751bb6e37c"
           },
           {
             "name": "github.com/buildkite/terminal-to-html/v3",
@@ -4427,16 +4427,6 @@
             "name": "github.com/cloudflare/circl",
             "purl": "",
             "version": "v1.6.3"
-          },
-          {
-            "name": "github.com/davecgh/go-spew",
-            "purl": "",
-            "version": "v1.1.2-0.20180830191138-d8f796af33cc"
-          },
-          {
-            "name": "github.com/dgryski/go-rendezvous",
-            "purl": "",
-            "version": "v0.0.0-20200823014737-9f7001d12a5f"
           },
           {
             "name": "github.com/djherbis/buffer",
@@ -4556,7 +4546,7 @@
           {
             "name": "github.com/go-chi/chi/v5",
             "purl": "",
-            "version": "v5.3.0"
+            "version": "v5.3.2"
           },
           {
             "name": "github.com/go-chi/cors",
@@ -4591,7 +4581,7 @@
           {
             "name": "github.com/go-sql-driver/mysql",
             "purl": "",
-            "version": "v1.9.3"
+            "version": "v1.10.0"
           },
           {
             "name": "github.com/go-viper/mapstructure/v2",
@@ -4741,7 +4731,7 @@
           {
             "name": "github.com/jackc/pgx/v5",
             "purl": "",
-            "version": "v5.9.2"
+            "version": "v5.10.0"
           },
           {
             "name": "github.com/jackc/puddle/v2",
@@ -4829,11 +4819,6 @@
             "version": "v1.5.0"
           },
           {
-            "name": "github.com/lib/pq",
-            "purl": "",
-            "version": "v1.11.2"
-          },
-          {
             "name": "github.com/libdns/libdns",
             "purl": "",
             "version": "v1.0.0"
@@ -4876,7 +4861,7 @@
           {
             "name": "github.com/mattn/go-sqlite3",
             "purl": "",
-            "version": "v1.14.42"
+            "version": "v1.14.50"
           },
           {
             "name": "github.com/meilisearch/meilisearch-go",
@@ -5014,11 +4999,6 @@
             "version": "v0.0.0-20170505043639-c605e284fe17"
           },
           {
-            "name": "github.com/pmezard/go-difflib",
-            "purl": "",
-            "version": "v1.0.1-0.20181226105442-5d4384ee4fb2"
-          },
-          {
             "name": "github.com/pquerna/otp",
             "purl": "",
             "version": "v1.5.0"
@@ -5046,7 +5026,7 @@
           {
             "name": "github.com/redis/go-redis/v9",
             "purl": "",
-            "version": "v9.17.3"
+            "version": "v9.22.0"
           },
           {
             "name": "github.com/rhysd/actionlint",
@@ -5121,12 +5101,12 @@
           {
             "name": "github.com/stretchr/objx",
             "purl": "",
-            "version": "v0.5.2"
+            "version": "v0.5.3"
           },
           {
             "name": "github.com/stretchr/testify",
             "purl": "",
-            "version": "v1.11.1"
+            "version": "v1.12.1"
           },
           {
             "name": "github.com/syndtr/goleveldb",
@@ -5211,7 +5191,7 @@
           {
             "name": "go.yaml.in/yaml/v3",
             "purl": "",
-            "version": "v3.0.4"
+            "version": "v3.0.5"
           },
           {
             "name": "go.yaml.in/yaml/v4",
@@ -5282,11 +5262,6 @@
             "name": "gopkg.in/ini.v1",
             "purl": "",
             "version": "v1.67.3"
-          },
-          {
-            "name": "gopkg.in/yaml.v3",
-            "purl": "",
-            "version": "v3.0.1"
           },
           {
             "name": "mvdan.cc/xurls/v2",
@@ -5372,20 +5347,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 73,
-        "go": 241,
+        "go": 236,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 325
+        "total": 320
       }
     },
     "16": {
       "app_version": "16.0.4",
       "arch": "amd64",
-      "generated": "2026-09-10T13:06:55Z",
+      "generated": "2026-09-15T22:11:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5646,7 +5621,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -7226,7 +7201,7 @@
     "16-latest": {
       "app_version": "16.0.4",
       "arch": "amd64",
-      "generated": "2026-09-10T13:05:43Z",
+      "generated": "2026-09-15T22:11:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7487,14 +7462,14 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "curl",
-            "version": "8.21.0"
+            "version": "8.22.0"
           },
           {
             "licenses": [
@@ -9065,9 +9040,9 @@
       }
     },
     "16-pkg-latest": {
-      "app_version": "16.0.3_1",
+      "app_version": "16.0.4",
       "arch": "amd64",
-      "generated": "2026-09-10T12:57:35Z",
+      "generated": "2026-09-15T22:03:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9328,14 +9303,14 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "curl",
-            "version": "8.21.0"
+            "version": "8.22.0"
           },
           {
             "licenses": [
@@ -9356,7 +9331,7 @@
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.3_1"
+            "version": "16.0.4"
           },
           {
             "licenses": [
@@ -9661,17 +9636,17 @@
           {
             "name": "code.forgejo.org/go-chi/captcha",
             "purl": "",
-            "version": "v1.0.2"
+            "version": "v1.0.3"
           },
           {
             "name": "code.forgejo.org/go-chi/session",
             "purl": "",
-            "version": "v1.0.4"
+            "version": "v1.1.0"
           },
           {
             "name": "code.forgejo.org/xorm/xorm",
             "purl": "",
-            "version": "v1.4.0"
+            "version": "v1.4.1"
           },
           {
             "name": "code.gitea.io/sdk/gitea",
@@ -9696,7 +9671,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "16.0.3"
+            "version": "16.0.4"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -9901,7 +9876,7 @@
           {
             "name": "github.com/bradfitz/gomemcache",
             "purl": "",
-            "version": "v0.0.0-20250403215159-8d39553ac7cf"
+            "version": "v0.0.0-20260422231931-4d751bb6e37c"
           },
           {
             "name": "github.com/buildkite/terminal-to-html/v3",
@@ -9942,11 +9917,6 @@
             "name": "github.com/cloudflare/circl",
             "purl": "",
             "version": "v1.6.3"
-          },
-          {
-            "name": "github.com/davecgh/go-spew",
-            "purl": "",
-            "version": "v1.1.2-0.20180830191138-d8f796af33cc"
           },
           {
             "name": "github.com/djherbis/buffer",
@@ -10066,7 +10036,7 @@
           {
             "name": "github.com/go-chi/chi/v5",
             "purl": "",
-            "version": "v5.3.0"
+            "version": "v5.3.2"
           },
           {
             "name": "github.com/go-chi/cors",
@@ -10391,7 +10361,7 @@
           {
             "name": "github.com/mattn/go-sqlite3",
             "purl": "",
-            "version": "v1.14.46"
+            "version": "v1.14.50"
           },
           {
             "name": "github.com/meilisearch/meilisearch-go",
@@ -10539,11 +10509,6 @@
             "version": "v0.0.0-20170505043639-c605e284fe17"
           },
           {
-            "name": "github.com/pmezard/go-difflib",
-            "purl": "",
-            "version": "v1.0.1-0.20181226105442-5d4384ee4fb2"
-          },
-          {
             "name": "github.com/pquerna/otp",
             "purl": "",
             "version": "v1.5.0"
@@ -10571,7 +10536,7 @@
           {
             "name": "github.com/redis/go-redis/v9",
             "purl": "",
-            "version": "v9.20.1"
+            "version": "v9.22.0"
           },
           {
             "name": "github.com/rhysd/actionlint",
@@ -10656,12 +10621,12 @@
           {
             "name": "github.com/stretchr/objx",
             "purl": "",
-            "version": "v0.5.2"
+            "version": "v0.5.3"
           },
           {
             "name": "github.com/stretchr/testify",
             "purl": "",
-            "version": "v1.11.1"
+            "version": "v1.12.1"
           },
           {
             "name": "github.com/syndtr/goleveldb",
@@ -10751,7 +10716,7 @@
           {
             "name": "go.yaml.in/yaml/v3",
             "purl": "",
-            "version": "v3.0.4"
+            "version": "v3.0.5"
           },
           {
             "name": "go.yaml.in/yaml/v4",
@@ -10811,12 +10776,12 @@
           {
             "name": "google.golang.org/genproto/googleapis/rpc",
             "purl": "",
-            "version": "v0.0.0-20260414002931-afd174a4e478"
+            "version": "v0.0.0-20260526163538-3dc84a4a5aaa"
           },
           {
             "name": "google.golang.org/grpc",
             "purl": "",
-            "version": "v1.82.1"
+            "version": "v1.83.1"
           },
           {
             "name": "google.golang.org/protobuf",
@@ -10832,11 +10797,6 @@
             "name": "gopkg.in/ini.v1",
             "purl": "",
             "version": "v1.67.3"
-          },
-          {
-            "name": "gopkg.in/yaml.v3",
-            "purl": "",
-            "version": "v3.0.1"
           },
           {
             "name": "mvdan.cc/xurls/v2",
@@ -10922,14 +10882,14 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 73,
-        "go": 251,
+        "go": 248,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 335
+        "total": 332
       }
     }
   }
