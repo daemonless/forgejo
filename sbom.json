@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-21T22:38:07Z",
+  "generated": "2026-09-24T18:04:51Z",
   "image": "forgejo",
   "tags": {
     "15": {
       "app_version": "15.0.9",
       "arch": "amd64",
-      "generated": "2026-09-21T22:14:27Z",
+      "generated": "2026-09-24T18:02:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1800,7 +1800,7 @@
     "15-latest": {
       "app_version": "15.0.9",
       "arch": "amd64",
-      "generated": "2026-09-21T22:20:49Z",
+      "generated": "2026-09-24T18:02:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2206,7 +2206,7 @@
               "GPLv1+"
             ],
             "name": "p5-Authen-SASL",
-            "version": "2.1900"
+            "version": "2.2000"
           },
           {
             "licenses": [
@@ -2214,7 +2214,7 @@
               "GPLv1+"
             ],
             "name": "p5-Crypt-URandom",
-            "version": "0.54"
+            "version": "0.55"
           },
           {
             "licenses": [
@@ -3593,9 +3593,9 @@
       }
     },
     "15-pkg-latest": {
-      "app_version": "15.0.8",
+      "app_version": "15.0.9",
       "arch": "amd64",
-      "generated": "2026-09-21T22:24:15Z",
+      "generated": "2026-09-24T17:55:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3898,7 +3898,7 @@
               "GPLv3+"
             ],
             "name": "forgejo15",
-            "version": "15.0.8"
+            "version": "15.0.9"
           },
           {
             "licenses": [
@@ -4008,7 +4008,7 @@
               "GPLv1+"
             ],
             "name": "p5-Authen-SASL",
-            "version": "2.1900"
+            "version": "2.2000"
           },
           {
             "licenses": [
@@ -4016,7 +4016,7 @@
               "GPLv1+"
             ],
             "name": "p5-Crypt-URandom",
-            "version": "0.54"
+            "version": "0.55"
           },
           {
             "licenses": [
@@ -4238,7 +4238,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "15.0.8"
+            "version": "15.0.9"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -5402,7 +5402,7 @@
     "16": {
       "app_version": "16.0.5",
       "arch": "amd64",
-      "generated": "2026-09-21T22:36:53Z",
+      "generated": "2026-09-24T18:03:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7257,7 +7257,7 @@
     "16-latest": {
       "app_version": "16.0.5",
       "arch": "amd64",
-      "generated": "2026-09-21T22:28:50Z",
+      "generated": "2026-09-24T18:03:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7663,7 +7663,7 @@
               "GPLv1+"
             ],
             "name": "p5-Authen-SASL",
-            "version": "2.1900"
+            "version": "2.2000"
           },
           {
             "licenses": [
@@ -7671,7 +7671,7 @@
               "GPLv1+"
             ],
             "name": "p5-Crypt-URandom",
-            "version": "0.54"
+            "version": "0.55"
           },
           {
             "licenses": [
@@ -9110,9 +9110,9 @@
       }
     },
     "16-pkg-latest": {
-      "app_version": "16.0.4",
+      "app_version": "16.0.5",
       "arch": "amd64",
-      "generated": "2026-09-21T22:33:28Z",
+      "generated": "2026-09-24T17:55:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9415,7 +9415,7 @@
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.4"
+            "version": "16.0.5"
           },
           {
             "licenses": [
@@ -9525,7 +9525,7 @@
               "GPLv1+"
             ],
             "name": "p5-Authen-SASL",
-            "version": "2.1900"
+            "version": "2.2000"
           },
           {
             "licenses": [
@@ -9533,7 +9533,7 @@
               "GPLv1+"
             ],
             "name": "p5-Crypt-URandom",
-            "version": "0.54"
+            "version": "0.55"
           },
           {
             "licenses": [
@@ -9755,7 +9755,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "16.0.4"
+            "version": "16.0.5"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -10865,7 +10865,7 @@
           {
             "name": "google.golang.org/grpc",
             "purl": "",
-            "version": "v1.83.1"
+            "version": "v1.83.2"
           },
           {
             "name": "google.golang.org/protobuf",
