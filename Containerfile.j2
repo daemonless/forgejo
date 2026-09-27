@@ -38,7 +38,7 @@ ENV CGO_ENABLED=1
 
 ARG CLEAN_TARGET="clean-no-bindata"
 RUN gmake "${CLEAN_TARGET}"
-RUN gmake frontend
+RUN NODE_OPTIONS=--max-old-space-size=4096 gmake frontend
 RUN LDFLAGS="-buildid=" FORGEJO_VERSION=$(cat /version) \
     gmake FORGEJO_GENERATE_SKIP_HASH=true RELEASE_VERSION=$(cat /version) GOFLAGS="-trimpath" \
     go-check generate-backend static-executable 

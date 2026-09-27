@@ -9,6 +9,9 @@ cit:
     - /config/ssh
 
 build:
+  architectures:
+    - amd64
+    - aarch64
   variants:
     - tag: 15
       tag_desc: Built from latest upstream source release of the v15 branch.
