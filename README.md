@@ -276,7 +276,7 @@ If you want to modify the `SSH_PORT` later, you need to change the configuration
 section of `/config/custom/conf/app.ini`.
 
 
-**Architectures:** amd64
+**Architectures:** amd64, aarch64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
 **Base:** FreeBSD 15.1
 
