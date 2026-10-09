@@ -38,7 +38,7 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   forgejo:
-    image: "ghcr.io/daemonless/forgejo:latest"
+    image: "ghcr.io/daemonless/forgejo:15"
     container_name: forgejo
     environment:
       - PUID=1000  # User ID for the application process
@@ -47,7 +47,7 @@ services:
       - SSH_PORT=2222  # Published port for sshd (used in clone URLs)
       - SSH_LISTEN_PORT=22  # Port on which sshd listens inside the container
     volumes:
-      - "/path/to/containers/forgejo:/config"
+      - "/containers/forgejo:/config"
     ports:
       - "3000:3000"
       - "2222:22"
@@ -98,7 +98,7 @@ services:
       - forgejo: /config
 volumes:
   forgejo:
-    device: '/path/to/containers/forgejo'
+    device: '/containers/forgejo'
 ```
 
 **Makejail**:
@@ -121,51 +121,6 @@ Save the files above, then run `appjail-director up`.
 >
 > To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
 
-### Podman CLI
-
-```bash
-podman run -d --name forgejo \
-  -p 3000:3000 \
-  -p 2222:22 \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -e SSH_PORT=2222 \
-  -e SSH_LISTEN_PORT=22 \
-  -v /path/to/containers/forgejo:/config \
-  ghcr.io/daemonless/forgejo:latest
-```
-
-Save as `run.sh`, then run `sh run.sh`.
-
-### AppJail
-
-
-```bash
-appjail oci run -Pd \
-  -o overwrite=force \
-  -o container="args:--pull" \
-  -o virtualnet=":<random> default" \
-  -o nat \
-  -o expose="3000:3000 proto:tcp" \
-  -o expose="2222:22 proto:tcp" \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -e SSH_PORT=2222 \
-  -e SSH_LISTEN_PORT=22 \
-  -o fstab="/path/to/containers/forgejo /config <pseudofs>" \
-  ghcr.io/daemonless/forgejo:latest forgejo
-```
-
-Save the files above, then run `sh run.sh`.
-
-
-> [!WARNING]
-> Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the jail's IPv4 address or hostname assigned by the virtual network.
->
-> To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
-
 ### Bastille
 
 > [!WARNING]
@@ -175,7 +130,7 @@ Save the files above, then run `sh run.sh`.
 services:
   forgejo:
     name: forgejo
-    image: "ghcr.io/daemonless/forgejo:latest"
+    image: "ghcr.io/daemonless/forgejo:15"
     network:
       - mode: host
     environment:
@@ -185,45 +140,10 @@ services:
       - SSH_PORT=2222
       - SSH_LISTEN_PORT=22
     volumes:
-      - "/path/to/containers/forgejo:/config"
+      - "/containers/forgejo:/config"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
-
-```bash
-bastille create -O \
-  --env PUID=1000 \
-  --env PGID=1000 \
-  --env TZ=UTC \
-  --env SSH_PORT=2222 \
-  --env SSH_LISTEN_PORT=22 \
-  --volume /path/to/containers/forgejo /config \
-  forgejo ghcr.io/daemonless/forgejo:latest inherit
-```
-
-### Ansible
-
-```yaml
-- name: Deploy forgejo
-  containers.podman.podman_container:
-    name: forgejo
-    image: "ghcr.io/daemonless/forgejo:latest"
-    state: started
-    restart_policy: always
-    env:
-      PUID: "1000"
-      PGID: "1000"
-      TZ: "UTC"
-      SSH_PORT: "2222"
-      SSH_LISTEN_PORT: "22"
-    ports:
-      - "3000:3000"
-      - "2222:22"
-    volumes:
-      - "/path/to/containers/forgejo:/config"
-```
-
-Save as `forgejo-deploy.yaml`, then run `ansible-playbook forgejo-deploy.yaml`.
+Save as `bastille-compose.yml`, then run `bastille up`.
 
 Access at: `http://localhost:3000`
 

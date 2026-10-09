@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-27T22:33:54Z",
+  "generated": "2026-10-09T15:01:50Z",
   "image": "forgejo",
   "tags": {
     "15-amd64": {
       "app_version": "15.0.9",
       "arch": "amd64",
-      "generated": "2026-09-27T22:30:11Z",
+      "generated": "2026-10-09T14:57:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -42,7 +42,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -56,7 +56,7 @@
               "BSD-3-Clause"
             ],
             "name": "FreeBSD-dhclient",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -91,7 +91,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libcasper",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -154,7 +154,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -196,14 +196,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -224,7 +224,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -280,7 +280,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -1800,7 +1800,7 @@
     "15-latest-amd64": {
       "app_version": "15.0.9",
       "arch": "amd64",
-      "generated": "2026-09-27T22:32:02Z",
+      "generated": "2026-10-09T14:57:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1837,7 +1837,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -1851,7 +1851,7 @@
               "BSD-3-Clause"
             ],
             "name": "FreeBSD-dhclient",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -1886,7 +1886,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libcasper",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -1949,7 +1949,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -1991,14 +1991,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -2019,7 +2019,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -2047,7 +2047,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -2075,7 +2075,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -2096,7 +2096,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.8.5"
           },
           {
             "licenses": [
@@ -2111,7 +2111,7 @@
               "GPLv2"
             ],
             "name": "git",
-            "version": "2.55.0"
+            "version": "2.56.0"
           },
           {
             "licenses": [
@@ -2206,7 +2206,7 @@
               "GPLv1+"
             ],
             "name": "p5-Authen-SASL",
-            "version": "2.2000"
+            "version": "2.2100"
           },
           {
             "licenses": [
@@ -2283,7 +2283,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.48"
+            "version": "10.49"
           },
           {
             "licenses": [
@@ -3595,7 +3595,7 @@
     "15-pkg-latest-amd64": {
       "app_version": "15.0.9",
       "arch": "amd64",
-      "generated": "2026-09-27T22:23:35Z",
+      "generated": "2026-10-09T14:53:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3632,7 +3632,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -3646,7 +3646,7 @@
               "BSD-3-Clause"
             ],
             "name": "FreeBSD-dhclient",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -3681,7 +3681,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libcasper",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -3744,7 +3744,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -3786,14 +3786,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -3814,7 +3814,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -3842,7 +3842,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -3870,7 +3870,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -3891,7 +3891,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.8.5"
           },
           {
             "licenses": [
@@ -3913,7 +3913,7 @@
               "GPLv2"
             ],
             "name": "git",
-            "version": "2.55.0"
+            "version": "2.56.0"
           },
           {
             "licenses": [
@@ -4008,7 +4008,7 @@
               "GPLv1+"
             ],
             "name": "p5-Authen-SASL",
-            "version": "2.2000"
+            "version": "2.2100"
           },
           {
             "licenses": [
@@ -4085,7 +4085,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.48"
+            "version": "10.49"
           },
           {
             "licenses": [
@@ -5402,7 +5402,7 @@
     "16-amd64": {
       "app_version": "16.0.5",
       "arch": "amd64",
-      "generated": "2026-09-27T22:31:13Z",
+      "generated": "2026-10-09T14:58:16Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5439,7 +5439,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -5453,7 +5453,7 @@
               "BSD-3-Clause"
             ],
             "name": "FreeBSD-dhclient",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -5488,7 +5488,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libcasper",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -5551,7 +5551,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -5593,14 +5593,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -5621,7 +5621,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -5649,7 +5649,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -5677,7 +5677,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -7257,7 +7257,7 @@
     "16-latest-amd64": {
       "app_version": "16.0.5",
       "arch": "amd64",
-      "generated": "2026-09-27T22:33:00Z",
+      "generated": "2026-10-09T15:01:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7294,7 +7294,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -7308,7 +7308,7 @@
               "BSD-3-Clause"
             ],
             "name": "FreeBSD-dhclient",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -7343,7 +7343,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libcasper",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -7406,7 +7406,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -7448,14 +7448,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -7476,7 +7476,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -7504,7 +7504,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -7532,7 +7532,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -7553,7 +7553,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.8.5"
           },
           {
             "licenses": [
@@ -7568,7 +7568,7 @@
               "GPLv2"
             ],
             "name": "git",
-            "version": "2.55.0"
+            "version": "2.56.0"
           },
           {
             "licenses": [
@@ -7663,7 +7663,7 @@
               "GPLv1+"
             ],
             "name": "p5-Authen-SASL",
-            "version": "2.2000"
+            "version": "2.2100"
           },
           {
             "licenses": [
@@ -7740,7 +7740,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.48"
+            "version": "10.49"
           },
           {
             "licenses": [
@@ -9112,7 +9112,7 @@
     "16-pkg-latest-amd64": {
       "app_version": "16.0.5",
       "arch": "amd64",
-      "generated": "2026-09-27T22:22:38Z",
+      "generated": "2026-10-09T14:53:16Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9149,7 +9149,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -9163,7 +9163,7 @@
               "BSD-3-Clause"
             ],
             "name": "FreeBSD-dhclient",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -9198,7 +9198,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libcasper",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -9261,7 +9261,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -9303,14 +9303,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -9331,7 +9331,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -9359,7 +9359,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -9387,7 +9387,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -9408,7 +9408,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.8.5"
           },
           {
             "licenses": [
@@ -9430,7 +9430,7 @@
               "GPLv2"
             ],
             "name": "git",
-            "version": "2.55.0"
+            "version": "2.56.0"
           },
           {
             "licenses": [
@@ -9525,7 +9525,7 @@
               "GPLv1+"
             ],
             "name": "p5-Authen-SASL",
-            "version": "2.2000"
+            "version": "2.2100"
           },
           {
             "licenses": [
@@ -9602,7 +9602,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.48"
+            "version": "10.49"
           },
           {
             "licenses": [
