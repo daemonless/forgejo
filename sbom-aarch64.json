@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-09T15:53:40Z",
+  "generated": "2026-10-12T00:00:49Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
       "app_version": "15.0.9",
       "arch": "aarch64",
-      "generated": "2026-10-09T15:48:40Z",
+      "generated": "2026-10-11T23:55:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1800,7 +1800,7 @@
     "15-latest-aarch64": {
       "app_version": "15.0.9",
       "arch": "aarch64",
-      "generated": "2026-10-09T15:48:46Z",
+      "generated": "2026-10-11T23:55:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2096,7 +2096,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.8.5"
           },
           {
             "licenses": [
@@ -3595,7 +3595,7 @@
     "15-pkg-latest-aarch64": {
       "app_version": "15.0.9",
       "arch": "aarch64",
-      "generated": "2026-10-09T15:48:51Z",
+      "generated": "2026-10-11T23:55:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3891,7 +3891,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.8.5"
           },
           {
             "licenses": [
@@ -5402,7 +5402,7 @@
     "16-aarch64": {
       "app_version": "16.0.5",
       "arch": "aarch64",
-      "generated": "2026-10-09T15:48:56Z",
+      "generated": "2026-10-11T23:56:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7257,7 +7257,7 @@
     "16-latest-aarch64": {
       "app_version": "16.0.5",
       "arch": "aarch64",
-      "generated": "2026-10-09T15:49:01Z",
+      "generated": "2026-10-11T23:56:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7553,7 +7553,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.8.5"
           },
           {
             "licenses": [
@@ -9112,7 +9112,7 @@
     "16-pkg-latest-aarch64": {
       "app_version": "16.0.5",
       "arch": "aarch64",
-      "generated": "2026-10-09T15:49:06Z",
+      "generated": "2026-10-11T23:56:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9408,7 +9408,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.8.5"
           },
           {
             "licenses": [
