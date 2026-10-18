@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-14T19:03:19Z",
+  "generated": "2026-10-18T08:01:30Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
       "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-14T18:57:51Z",
+      "generated": "2026-10-18T07:56:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -323,7 +323,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_22"
+            "version": "3.6.1_23"
           },
           {
             "licenses": [
@@ -1800,7 +1800,7 @@
     "15-latest-aarch64": {
       "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-14T18:57:56Z",
+      "generated": "2026-10-18T07:56:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3595,7 +3595,7 @@
     "15-pkg-latest-aarch64": {
       "app_version": "15.0.9_1",
       "arch": "aarch64",
-      "generated": "2026-10-14T18:57:59Z",
+      "generated": "2026-10-18T07:56:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5402,7 +5402,7 @@
     "16-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-14T18:58:04Z",
+      "generated": "2026-10-18T07:56:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5720,7 +5720,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_22"
+            "version": "3.6.1_23"
           },
           {
             "licenses": [
@@ -7257,7 +7257,7 @@
     "16-latest-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-14T18:58:08Z",
+      "generated": "2026-10-18T07:56:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9112,7 +9112,7 @@
     "16-pkg-latest-aarch64": {
       "app_version": "16.0.5_1",
       "arch": "aarch64",
-      "generated": "2026-10-14T18:58:13Z",
+      "generated": "2026-10-18T07:57:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
