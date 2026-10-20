@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-18T07:32:22Z",
+  "generated": "2026-10-20T00:14:48Z",
   "image": "forgejo",
   "tags": {
     "15-amd64": {
       "app_version": "15.0.10",
       "arch": "amd64",
-      "generated": "2026-10-18T07:28:42Z",
+      "generated": "2026-10-20T00:10:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -510,7 +510,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -1800,7 +1800,7 @@
     "15-latest-amd64": {
       "app_version": "15.0.10",
       "arch": "amd64",
-      "generated": "2026-10-18T07:31:28Z",
+      "generated": "2026-10-20T00:10:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3595,7 +3595,7 @@
     "15-pkg-latest-amd64": {
       "app_version": "15.0.10",
       "arch": "amd64",
-      "generated": "2026-10-18T07:21:12Z",
+      "generated": "2026-10-20T00:00:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5402,7 +5402,7 @@
     "16-amd64": {
       "app_version": "16.0.6",
       "arch": "amd64",
-      "generated": "2026-10-18T07:28:18Z",
+      "generated": "2026-10-20T00:11:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5907,7 +5907,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -7257,7 +7257,7 @@
     "16-latest-amd64": {
       "app_version": "16.0.6",
       "arch": "amd64",
-      "generated": "2026-10-18T07:31:40Z",
+      "generated": "2026-10-20T00:14:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9112,7 +9112,7 @@
     "16-pkg-latest-amd64": {
       "app_version": "16.0.6",
       "arch": "amd64",
-      "generated": "2026-10-18T07:21:03Z",
+      "generated": "2026-10-20T00:00:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
