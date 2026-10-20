@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-18T08:01:30Z",
+  "generated": "2026-10-20T00:57:08Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
       "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-18T07:56:39Z",
+      "generated": "2026-10-20T00:52:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1800,7 +1800,7 @@
     "15-latest-aarch64": {
       "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-18T07:56:43Z",
+      "generated": "2026-10-20T00:52:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2305,7 +2305,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -3593,9 +3593,9 @@
       }
     },
     "15-pkg-latest-aarch64": {
-      "app_version": "15.0.9_1",
+      "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-18T07:56:48Z",
+      "generated": "2026-10-20T00:53:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3898,7 +3898,7 @@
               "GPLv3+"
             ],
             "name": "forgejo15",
-            "version": "15.0.9_1"
+            "version": "15.0.10"
           },
           {
             "licenses": [
@@ -4107,7 +4107,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -4238,7 +4238,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "15.0.9"
+            "version": "15.0.10"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -5258,7 +5258,7 @@
           {
             "name": "golang.org/x/mod",
             "purl": "",
-            "version": "v0.40.0"
+            "version": "v0.41.0"
           },
           {
             "name": "golang.org/x/net",
@@ -5278,7 +5278,7 @@
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.47.0"
+            "version": "v0.48.0"
           },
           {
             "name": "golang.org/x/text",
@@ -5402,7 +5402,7 @@
     "16-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-18T07:56:53Z",
+      "generated": "2026-10-20T00:53:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7257,7 +7257,7 @@
     "16-latest-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-18T07:56:58Z",
+      "generated": "2026-10-20T00:53:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7762,7 +7762,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -9110,9 +9110,9 @@
       }
     },
     "16-pkg-latest-aarch64": {
-      "app_version": "16.0.5_1",
+      "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-18T07:57:02Z",
+      "generated": "2026-10-20T00:53:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9415,7 +9415,7 @@
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.5_1"
+            "version": "16.0.6"
           },
           {
             "licenses": [
@@ -9624,7 +9624,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -9755,7 +9755,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "16.0.5"
+            "version": "16.0.6"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -10825,7 +10825,7 @@
           {
             "name": "golang.org/x/mod",
             "purl": "",
-            "version": "v0.40.0"
+            "version": "v0.41.0"
           },
           {
             "name": "golang.org/x/net",
@@ -10845,7 +10845,7 @@
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.47.0"
+            "version": "v0.48.0"
           },
           {
             "name": "golang.org/x/text",
