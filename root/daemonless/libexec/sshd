@@ -1,0 +1,4 @@
+#!/bin/sh
+# sshd for git over SSH (runs as root; sessions drop to the git user)
+cd /root
+exec /usr/sbin/sshd -D -e 2>&1

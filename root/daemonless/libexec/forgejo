@@ -1,0 +1,10 @@
+#!/bin/sh
+# Forgejo rcd unit
+
+export HOME=/config
+export FORGEJO_WORK_DIR=/config
+export FORGEJO_CUSTOM=/config/custom
+
+exec 2>&1
+cd "$HOME"
+exec dsu bsd /app/forgejo web --config /config/custom/conf/app.ini

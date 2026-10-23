@@ -1,6 +1,0 @@
-#!/bin/sh
-
-pushd /root >/dev/null
-exec /usr/local/bin/s6-setuidgid root /usr/sbin/sshd -D -e 2>&1
-popd
-

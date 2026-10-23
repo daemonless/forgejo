@@ -10,11 +10,10 @@ ARG UPSTREAM_URL="https://codeberg.org/api/v1/repos/forgejo/forgejo/releases/lat
 ARG UPSTREAM_JQ=".tag_name"
 ARG TARBALL_JQ=".tarball_url"
 
-FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION} AS builder
 
 ARG GOPROXY=""
 ENV GOPROXY=${GOPROXY:-https://proxy.golang.org,direct}
-
 
 # Install build tools
 RUN pkg update && pkg install -y FreeBSD-set-devel go126 gmake npm-node24 git && \
@@ -50,8 +49,7 @@ RUN LDFLAGS="-buildid=" FORGEJO_VERSION=$(cat /version) \
     go-check generate-backend static-executable 
 #RUN TAGS="${GO_TAGS}" FORGEJO_VERSION=$(cat /version) gmake build
 
-
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-rcd:${BASE_VERSION}
 ARG UPSTREAM_URL
 ARG UPSTREAM_JQ
 ARG FREEBSD_ARCH=amd64
@@ -102,12 +100,8 @@ RUN cat /tmp/version | sed -n 's/^v\(.*\)$/\1/p' > /app/version && \
 
 # Copy service definition and nginx config
 COPY root/ /
-
-# Remove run.pkg file
-RUN rm -f /etc/services.d/forgejo/run.pkg 2>/dev/null || true
-
-# Make scripts executable
-RUN chmod +x /etc/services.d/*/run /etc/cont-init.d/* 2>/dev/null || true
+RUN rm -f /daemonless/libexec/*.pkg && \
+    chmod +x /daemonless/libexec/* /daemonless/init.d/*
 
 # --- Expose (Injected by Generator) ---
 EXPOSE 3000 22

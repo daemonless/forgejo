@@ -76,4 +76,3 @@ echo "[sshd] Changing ownership of /config/ssh to root and adjust permissions"
 chown -R root:wheel /config/ssh
 chmod 0700 /config/ssh
 chmod 0600 /config/ssh/*
-

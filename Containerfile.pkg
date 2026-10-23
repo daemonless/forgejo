@@ -5,7 +5,7 @@
 # --------------------------------------------------------------------------
 
 ARG BASE_VERSION=15
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-rcd:${BASE_VERSION}
 
 ARG PKG_NAME="forgejo"
 
@@ -61,14 +61,9 @@ RUN mkdir -m 0755 -p /config/data /config/custom/conf /config/repos /config/log 
 
 # Copy service definition and init scripts
 COPY root/ /
-
-# Replace the run file with run.pkg
-RUN if [ -f /etc/services.d/forgejo/run.pkg ]; then \
-      mv /etc/services.d/forgejo/run.pkg /etc/services.d/forgejo/run; \
-    fi
-
-# Make scripts executable
-RUN chmod +x /etc/services.d/*/run /etc/cont-init.d/* 2>/dev/null || true
+# The pkg layout's launcher (/usr/local/sbin/forgejo, not /app)
+RUN mv /daemonless/libexec/forgejo.pkg /daemonless/libexec/forgejo && \
+    chmod +x /daemonless/libexec/* /daemonless/init.d/*
 
 # --- Expose (Injected by Generator) ---
 EXPOSE 3000 22
