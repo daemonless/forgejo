@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T19:03:17Z",
+  "generated": "2026-10-24T10:00:26Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
       "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-23T18:58:47Z",
+      "generated": "2026-10-24T09:56:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1772,7 +1772,7 @@
     "15-latest-aarch64": {
       "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-23T18:58:52Z",
+      "generated": "2026-10-24T09:56:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3539,7 +3539,7 @@
     "15-pkg-latest-aarch64": {
       "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-23T18:58:57Z",
+      "generated": "2026-10-24T09:56:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5318,7 +5318,7 @@
     "16-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-23T18:59:02Z",
+      "generated": "2026-10-24T09:56:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7145,7 +7145,7 @@
     "16-latest-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-23T18:59:07Z",
+      "generated": "2026-10-24T09:56:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -8972,7 +8972,7 @@
     "16-pkg-latest-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-23T18:59:12Z",
+      "generated": "2026-10-24T09:56:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
