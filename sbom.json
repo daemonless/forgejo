@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T18:23:46Z",
+  "generated": "2026-10-24T09:02:55Z",
   "image": "forgejo",
   "tags": {
     "15-amd64": {
       "app_version": "15.0.10",
       "arch": "amd64",
-      "generated": "2026-10-23T18:12:23Z",
+      "generated": "2026-10-24T08:50:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -280,7 +280,7 @@
               "MIT"
             ],
             "name": "curl",
-            "version": "8.22.0"
+            "version": "8.23.0"
           },
           {
             "licenses": [
@@ -309,7 +309,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_23"
+            "version": "3.6.1_24"
           },
           {
             "licenses": [
@@ -1683,7 +1683,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           },
           {
             "name": "xorm.io/builder",
@@ -1772,7 +1772,7 @@
     "15-latest-amd64": {
       "app_version": "15.0.10",
       "arch": "amd64",
-      "generated": "2026-10-23T18:15:21Z",
+      "generated": "2026-10-24T08:53:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3539,7 +3539,7 @@
     "15-pkg-latest-amd64": {
       "app_version": "15.0.10_1",
       "arch": "amd64",
-      "generated": "2026-10-23T18:07:47Z",
+      "generated": "2026-10-24T08:44:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5318,7 +5318,7 @@
     "16-amd64": {
       "app_version": "16.0.6",
       "arch": "amd64",
-      "generated": "2026-10-23T18:11:18Z",
+      "generated": "2026-10-24T08:52:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5593,7 +5593,7 @@
               "MIT"
             ],
             "name": "curl",
-            "version": "8.22.0"
+            "version": "8.23.0"
           },
           {
             "licenses": [
@@ -5622,7 +5622,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_23"
+            "version": "3.6.1_24"
           },
           {
             "licenses": [
@@ -7056,7 +7056,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           },
           {
             "name": "xorm.io/builder",
@@ -7145,7 +7145,7 @@
     "16-latest-amd64": {
       "app_version": "16.0.6",
       "arch": "amd64",
-      "generated": "2026-10-23T18:15:03Z",
+      "generated": "2026-10-24T08:51:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -8972,7 +8972,7 @@
     "16-pkg-latest-amd64": {
       "app_version": "16.0.6_1",
       "arch": "amd64",
-      "generated": "2026-10-23T18:03:47Z",
+      "generated": "2026-10-24T08:45:06Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
