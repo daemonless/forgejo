@@ -50,7 +50,7 @@ x-daemonless:
 
 services:
   forgejo:
-    image: ghcr.io/daemonless/forgejo:latest
+    image: ghcr.io/daemonless/forgejo:15
     container_name: forgejo
     restart: unless-stopped
 
