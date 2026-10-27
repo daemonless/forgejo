@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-24T10:00:26Z",
+  "generated": "2026-10-27T19:55:05Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
-      "app_version": "15.0.10",
+      "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-10-24T09:56:25Z",
+      "generated": "2026-10-27T19:50:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1683,7 +1683,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           },
           {
             "name": "xorm.io/builder",
@@ -1770,9 +1770,9 @@
       }
     },
     "15-latest-aarch64": {
-      "app_version": "15.0.10",
+      "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-10-24T09:56:30Z",
+      "generated": "2026-10-27T19:50:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3450,7 +3450,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           },
           {
             "name": "xorm.io/builder",
@@ -3539,7 +3539,7 @@
     "15-pkg-latest-aarch64": {
       "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-24T09:56:35Z",
+      "generated": "2026-10-27T19:50:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5316,9 +5316,9 @@
       }
     },
     "16-aarch64": {
-      "app_version": "16.0.6",
+      "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-10-24T09:56:40Z",
+      "generated": "2026-10-27T19:50:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7056,7 +7056,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           },
           {
             "name": "xorm.io/builder",
@@ -7143,9 +7143,9 @@
       }
     },
     "16-latest-aarch64": {
-      "app_version": "16.0.6",
+      "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-10-24T09:56:45Z",
+      "generated": "2026-10-27T19:50:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -8883,7 +8883,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           },
           {
             "name": "xorm.io/builder",
@@ -8972,7 +8972,7 @@
     "16-pkg-latest-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-24T09:56:50Z",
+      "generated": "2026-10-27T19:50:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
