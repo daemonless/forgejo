@@ -52,7 +52,7 @@ services:
   forgejo:
     image: ghcr.io/daemonless/forgejo:15
     container_name: forgejo
-    restart: unless-stopped
+    restart: always
 
     environment:
       - PUID=1000
