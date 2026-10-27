@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-24T09:02:55Z",
+  "generated": "2026-10-27T19:26:10Z",
   "image": "forgejo",
   "tags": {
     "15-amd64": {
-      "app_version": "15.0.10",
+      "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-24T08:50:47Z",
+      "generated": "2026-10-27T19:17:42Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1770,9 +1770,9 @@
       }
     },
     "15-latest-amd64": {
-      "app_version": "15.0.10",
+      "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-24T08:53:18Z",
+      "generated": "2026-10-27T19:17:15Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2033,7 +2033,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
@@ -2219,7 +2219,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20260813"
+            "version": "20261020"
           },
           {
             "licenses": [
@@ -3539,7 +3539,7 @@
     "15-pkg-latest-amd64": {
       "app_version": "15.0.10_1",
       "arch": "amd64",
-      "generated": "2026-10-24T08:44:21Z",
+      "generated": "2026-10-27T19:10:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3800,7 +3800,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
@@ -3993,7 +3993,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20260813"
+            "version": "20261020"
           },
           {
             "licenses": [
@@ -5316,9 +5316,9 @@
       }
     },
     "16-amd64": {
-      "app_version": "16.0.6",
+      "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-24T08:52:26Z",
+      "generated": "2026-10-27T19:25:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7143,9 +7143,9 @@
       }
     },
     "16-latest-amd64": {
-      "app_version": "16.0.6",
+      "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-24T08:51:47Z",
+      "generated": "2026-10-27T19:19:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7406,7 +7406,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
@@ -7592,7 +7592,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20260813"
+            "version": "20261020"
           },
           {
             "licenses": [
@@ -8972,7 +8972,7 @@
     "16-pkg-latest-amd64": {
       "app_version": "16.0.6_1",
       "arch": "amd64",
-      "generated": "2026-10-24T08:45:06Z",
+      "generated": "2026-10-27T19:10:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9233,7 +9233,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.0,1"
+            "version": "1.2.1,1"
           },
           {
             "licenses": [
@@ -9426,7 +9426,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20260813"
+            "version": "20261020"
           },
           {
             "licenses": [
