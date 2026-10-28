@@ -27,6 +27,9 @@ Forgejo is a self-hosted lightweight software forge
 | `16` | Built from latest upstream source release of the v16 branch. | Alternative build. |
 | `16-latest` | Built from latest upstream source release of the v16 branch with latest FreeBSD packages. | Alternative build. |
 | `16-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
+| `17` | Built from latest upstream source release of the v17 branch. | Alternative build. |
+| `17-latest` | Built from latest upstream source release of the v17 branch with latest FreeBSD packages. | Alternative build. |
+| `17-pkg-latest` | Built from latest FreeBSD packages. Currently not recommended as the version in pkg contains a bug. | Alternative build. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.

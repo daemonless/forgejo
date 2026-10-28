@@ -52,11 +52,36 @@ build:
         UPSTREAM_URL: "https://codeberg.org/api/v1/repos/forgejo/forgejo/releases"
         UPSTREAM_JQ: "map(select(.tag_name | test(\"^v16\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
         TARBALL_JQ: "map(select(.tag_name | test(\"^v16\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
-#    - tag: 16-pkg
-#      pkg_name: forgejo16
-#      containerfile: Containerfile.pkg
+    - tag: 16-pkg
+      pkg_name: forgejo16
+      containerfile: Containerfile.pkg
     - tag: 16-pkg-latest
       pkg_name: forgejo16
       containerfile: Containerfile.pkg
       args:
         BASE_VERSION: "15-latest"
+    - tag: 17
+      tag_desc: Built from latest upstream source release of the v17 branch.
+      args:
+        UPSTREAM_URL: "https://codeberg.org/api/v1/repos/forgejo/forgejo/releases"
+        UPSTREAM_JQ: "map(select(.tag_name | test(\"^v17\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
+        TARBALL_JQ: "map(select(.tag_name | test(\"^v17\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
+    - tag: 17-latest
+      tag_desc: Built from latest upstream source release of the v17 branch with latest FreeBSD packages.
+      args:
+        BASE_VERSION: "15-latest"
+        UPSTREAM_URL: "https://codeberg.org/api/v1/repos/forgejo/forgejo/releases"
+        UPSTREAM_JQ: "map(select(.tag_name | test(\"^v17\\\\..*\"))) | sort_by(-.id) | .[0].tag_name"
+        TARBALL_JQ: "map(select(.tag_name | test(\"^v17\\\\..*\"))) | sort_by(-.id) | .[0].tarball_url"
+### Forgejo 17.0.0 has a bug and should not be deployed. Waiting for packages to provide 17.0.1 before
+### enbaling the pkg variants
+#    - tag: 17-pkg
+#      pkg_name: forgejo17
+#      containerfile: Containerfile.pkg
+#    - tag: 17-pkg-latest
+#      tag_desc: Built from latest FreeBSD packages.
+#      pkg_name: forgejo17
+#      containerfile: Containerfile.pkg
+#      args:
+#        BASE_VERSION: "15-latest"
+
