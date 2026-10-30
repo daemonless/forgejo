@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-28T14:07:36Z",
+  "generated": "2026-10-30T21:10:39Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
       "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-10-28T14:00:48Z",
+      "generated": "2026-10-30T21:01:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1772,7 +1772,7 @@
     "15-latest-aarch64": {
       "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-10-28T14:00:53Z",
+      "generated": "2026-10-30T21:01:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3539,7 +3539,7 @@
     "15-pkg-latest-aarch64": {
       "app_version": "15.0.10",
       "arch": "aarch64",
-      "generated": "2026-10-28T14:00:58Z",
+      "generated": "2026-10-30T21:01:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5318,7 +5318,7 @@
     "16-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-10-28T14:01:03Z",
+      "generated": "2026-10-30T21:01:42Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7145,7 +7145,7 @@
     "16-latest-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-10-28T14:01:08Z",
+      "generated": "2026-10-30T21:01:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -8972,7 +8972,7 @@
     "16-pkg-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-28T14:01:13Z",
+      "generated": "2026-10-30T21:01:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -10811,7 +10811,7 @@
     "16-pkg-latest-aarch64": {
       "app_version": "16.0.6",
       "arch": "aarch64",
-      "generated": "2026-10-28T14:01:19Z",
+      "generated": "2026-10-30T21:02:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -12650,7 +12650,7 @@
     "17-aarch64": {
       "app_version": "17.0.1",
       "arch": "aarch64",
-      "generated": "2026-10-28T14:01:24Z",
+      "generated": "2026-10-30T21:02:06Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -14477,7 +14477,7 @@
     "17-latest-aarch64": {
       "app_version": "17.0.1",
       "arch": "aarch64",
-      "generated": "2026-10-28T14:01:30Z",
+      "generated": "2026-10-30T21:02:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
