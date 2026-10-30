@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-28T13:01:48Z",
+  "generated": "2026-10-30T20:15:22Z",
   "image": "forgejo",
   "tags": {
     "15-amd64": {
       "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-28T13:00:42Z",
+      "generated": "2026-10-30T15:45:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -273,7 +273,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -1772,7 +1772,7 @@
     "15-latest-amd64": {
       "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-28T13:00:06Z",
+      "generated": "2026-10-30T20:14:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2040,7 +2040,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -2076,7 +2076,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_24"
+            "version": "3.8.1"
           },
           {
             "licenses": [
@@ -2695,7 +2695,7 @@
           {
             "name": "github.com/git-lfs/go-netrc",
             "purl": "",
-            "version": "v0.0.0-20210914205454-f0c862dd687a"
+            "version": "v0.0.0-20250218165306-ba0029b43d11"
           },
           {
             "name": "github.com/git-lfs/pktline",
@@ -2806,6 +2806,11 @@
             "name": "github.com/golang/freetype",
             "purl": "",
             "version": "v0.0.0-20170609003504-e2365dfdc4a0"
+          },
+          {
+            "name": "github.com/golang/groupcache",
+            "purl": "",
+            "version": "v0.0.0-20241129210726-2c02b8208cf8"
           },
           {
             "name": "github.com/golang/snappy",
@@ -3000,7 +3005,7 @@
           {
             "name": "github.com/leonelquinteros/gotext",
             "purl": "",
-            "version": "v1.5.0"
+            "version": "v1.7.2"
           },
           {
             "name": "github.com/libdns/libdns",
@@ -3260,12 +3265,12 @@
           {
             "name": "github.com/spf13/cobra",
             "purl": "",
-            "version": "v1.7.0"
+            "version": "v1.10.2"
           },
           {
             "name": "github.com/spf13/pflag",
             "purl": "",
-            "version": "v1.0.5"
+            "version": "v1.0.9"
           },
           {
             "name": "github.com/ssgelm/cookiejarparser",
@@ -3526,20 +3531,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 70,
-        "go": 235,
+        "go": 236,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 316
+        "total": 317
       }
     },
     "15-pkg-latest-amd64": {
-      "app_version": "15.0.10_1",
+      "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-28T12:51:46Z",
+      "generated": "2026-10-30T15:33:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3807,7 +3812,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -3828,7 +3833,7 @@
               "GPLv3+"
             ],
             "name": "forgejo15",
-            "version": "15.0.10_1"
+            "version": "15.0.11"
           },
           {
             "licenses": [
@@ -3850,7 +3855,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_24"
+            "version": "3.8.1"
           },
           {
             "licenses": [
@@ -4154,7 +4159,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "15.0.10"
+            "version": "15.0.11"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -4469,7 +4474,7 @@
           {
             "name": "github.com/git-lfs/go-netrc",
             "purl": "",
-            "version": "v0.0.0-20210914205454-f0c862dd687a"
+            "version": "v0.0.0-20250218165306-ba0029b43d11"
           },
           {
             "name": "github.com/git-lfs/pktline",
@@ -4580,6 +4585,11 @@
             "name": "github.com/golang/freetype",
             "purl": "",
             "version": "v0.0.0-20170609003504-e2365dfdc4a0"
+          },
+          {
+            "name": "github.com/golang/groupcache",
+            "purl": "",
+            "version": "v0.0.0-20241129210726-2c02b8208cf8"
           },
           {
             "name": "github.com/golang/snappy",
@@ -4754,7 +4764,7 @@
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.18.7"
+            "version": "v1.19.1"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -4774,7 +4784,7 @@
           {
             "name": "github.com/leonelquinteros/gotext",
             "purl": "",
-            "version": "v1.5.0"
+            "version": "v1.7.2"
           },
           {
             "name": "github.com/libdns/libdns",
@@ -4804,7 +4814,7 @@
           {
             "name": "github.com/mattn/go-isatty",
             "purl": "",
-            "version": "v0.0.4"
+            "version": "v0.0.24"
           },
           {
             "name": "github.com/mattn/go-runewidth",
@@ -4954,7 +4964,7 @@
           {
             "name": "github.com/pkg/errors",
             "purl": "",
-            "version": "v0.0.0-20170505043639-c605e284fe17"
+            "version": "v0.9.1"
           },
           {
             "name": "github.com/pquerna/otp",
@@ -5039,12 +5049,12 @@
           {
             "name": "github.com/spf13/cobra",
             "purl": "",
-            "version": "v1.7.0"
+            "version": "v1.10.2"
           },
           {
             "name": "github.com/spf13/pflag",
             "purl": "",
-            "version": "v1.0.5"
+            "version": "v1.0.9"
           },
           {
             "name": "github.com/ssgelm/cookiejarparser",
@@ -5164,7 +5174,7 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.21.0"
+            "version": "v0.54.0"
           },
           {
             "name": "golang.org/x/image",
@@ -5179,7 +5189,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.23.0"
+            "version": "v0.57.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -5189,17 +5199,17 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.1.0"
+            "version": "v0.22.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.48.0"
+            "version": "v0.47.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.14.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/time",
@@ -5305,20 +5315,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 71,
-        "go": 236,
+        "go": 237,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 318
+        "total": 319
       }
     },
     "16-amd64": {
       "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-28T13:00:02Z",
+      "generated": "2026-10-30T15:41:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5586,7 +5596,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -7145,7 +7155,7 @@
     "16-latest-amd64": {
       "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-28T13:00:26Z",
+      "generated": "2026-10-30T15:41:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7413,7 +7423,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -7449,7 +7459,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_24"
+            "version": "3.8.1"
           },
           {
             "licenses": [
@@ -8083,7 +8093,7 @@
           {
             "name": "github.com/git-lfs/go-netrc",
             "purl": "",
-            "version": "v0.0.0-20210914205454-f0c862dd687a"
+            "version": "v0.0.0-20250218165306-ba0029b43d11"
           },
           {
             "name": "github.com/git-lfs/pktline",
@@ -8194,6 +8204,11 @@
             "name": "github.com/golang/freetype",
             "purl": "",
             "version": "v0.0.0-20170609003504-e2365dfdc4a0"
+          },
+          {
+            "name": "github.com/golang/groupcache",
+            "purl": "",
+            "version": "v0.0.0-20241129210726-2c02b8208cf8"
           },
           {
             "name": "github.com/golang/snappy",
@@ -8398,7 +8413,7 @@
           {
             "name": "github.com/leonelquinteros/gotext",
             "purl": "",
-            "version": "v1.5.0"
+            "version": "v1.7.2"
           },
           {
             "name": "github.com/libdns/libdns",
@@ -8678,12 +8693,12 @@
           {
             "name": "github.com/spf13/cobra",
             "purl": "",
-            "version": "v1.7.0"
+            "version": "v1.10.2"
           },
           {
             "name": "github.com/spf13/pflag",
             "purl": "",
-            "version": "v1.0.5"
+            "version": "v1.0.9"
           },
           {
             "name": "github.com/ssgelm/cookiejarparser",
@@ -8959,20 +8974,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 70,
-        "go": 247,
+        "go": 248,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 328
+        "total": 329
       }
     },
     "16-pkg-amd64": {
       "app_version": "16.0.6_1",
       "arch": "amd64",
-      "generated": "2026-10-28T12:51:08Z",
+      "generated": "2026-10-30T15:33:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9240,7 +9255,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -10809,9 +10824,9 @@
       }
     },
     "16-pkg-latest-amd64": {
-      "app_version": "16.0.6_1",
+      "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-28T12:50:49Z",
+      "generated": "2026-10-30T15:33:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -11079,7 +11094,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -11100,7 +11115,7 @@
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.6_1"
+            "version": "16.0.7"
           },
           {
             "licenses": [
@@ -11122,7 +11137,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_24"
+            "version": "3.8.1"
           },
           {
             "licenses": [
@@ -11426,7 +11441,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "16.0.6"
+            "version": "16.0.7"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -11756,7 +11771,7 @@
           {
             "name": "github.com/git-lfs/go-netrc",
             "purl": "",
-            "version": "v0.0.0-20210914205454-f0c862dd687a"
+            "version": "v0.0.0-20250218165306-ba0029b43d11"
           },
           {
             "name": "github.com/git-lfs/pktline",
@@ -11867,6 +11882,11 @@
             "name": "github.com/golang/freetype",
             "purl": "",
             "version": "v0.0.0-20170609003504-e2365dfdc4a0"
+          },
+          {
+            "name": "github.com/golang/groupcache",
+            "purl": "",
+            "version": "v0.0.0-20241129210726-2c02b8208cf8"
           },
           {
             "name": "github.com/golang/snappy",
@@ -12051,7 +12071,7 @@
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.18.7"
+            "version": "v1.19.1"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -12071,7 +12091,7 @@
           {
             "name": "github.com/leonelquinteros/gotext",
             "purl": "",
-            "version": "v1.5.0"
+            "version": "v1.7.2"
           },
           {
             "name": "github.com/libdns/libdns",
@@ -12101,7 +12121,7 @@
           {
             "name": "github.com/mattn/go-isatty",
             "purl": "",
-            "version": "v0.0.4"
+            "version": "v0.0.24"
           },
           {
             "name": "github.com/mattn/go-runewidth",
@@ -12261,7 +12281,7 @@
           {
             "name": "github.com/pkg/errors",
             "purl": "",
-            "version": "v0.0.0-20170505043639-c605e284fe17"
+            "version": "v0.9.1"
           },
           {
             "name": "github.com/pquerna/otp",
@@ -12356,12 +12376,12 @@
           {
             "name": "github.com/spf13/cobra",
             "purl": "",
-            "version": "v1.7.0"
+            "version": "v1.10.2"
           },
           {
             "name": "github.com/spf13/pflag",
             "purl": "",
-            "version": "v1.0.5"
+            "version": "v1.0.9"
           },
           {
             "name": "github.com/ssgelm/cookiejarparser",
@@ -12486,7 +12506,7 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.21.0"
+            "version": "v0.54.0"
           },
           {
             "name": "golang.org/x/image",
@@ -12501,7 +12521,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.23.0"
+            "version": "v0.57.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -12511,17 +12531,17 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.1.0"
+            "version": "v0.22.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.48.0"
+            "version": "v0.47.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.14.0"
+            "version": "v0.40.0"
           },
           {
             "name": "golang.org/x/time",
@@ -12637,20 +12657,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 71,
-        "go": 248,
+        "go": 249,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 330
+        "total": 331
       }
     },
     "17-amd64": {
       "app_version": "17.0.1",
       "arch": "amd64",
-      "generated": "2026-10-28T13:00:26Z",
+      "generated": "2026-10-30T15:41:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -12918,7 +12938,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -14477,7 +14497,7 @@
     "17-latest-amd64": {
       "app_version": "17.0.1",
       "arch": "amd64",
-      "generated": "2026-10-28T13:00:55Z",
+      "generated": "2026-10-30T15:41:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -14745,7 +14765,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -14781,7 +14801,7 @@
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.6.1_24"
+            "version": "3.8.1"
           },
           {
             "licenses": [
@@ -15415,7 +15435,7 @@
           {
             "name": "github.com/git-lfs/go-netrc",
             "purl": "",
-            "version": "v0.0.0-20210914205454-f0c862dd687a"
+            "version": "v0.0.0-20250218165306-ba0029b43d11"
           },
           {
             "name": "github.com/git-lfs/pktline",
@@ -15526,6 +15546,11 @@
             "name": "github.com/golang/freetype",
             "purl": "",
             "version": "v0.0.0-20170609003504-e2365dfdc4a0"
+          },
+          {
+            "name": "github.com/golang/groupcache",
+            "purl": "",
+            "version": "v0.0.0-20241129210726-2c02b8208cf8"
           },
           {
             "name": "github.com/golang/snappy",
@@ -15730,7 +15755,7 @@
           {
             "name": "github.com/leonelquinteros/gotext",
             "purl": "",
-            "version": "v1.5.0"
+            "version": "v1.7.2"
           },
           {
             "name": "github.com/libdns/libdns",
@@ -16010,12 +16035,12 @@
           {
             "name": "github.com/spf13/cobra",
             "purl": "",
-            "version": "v1.7.0"
+            "version": "v1.10.2"
           },
           {
             "name": "github.com/spf13/pflag",
             "purl": "",
-            "version": "v1.0.5"
+            "version": "v1.0.9"
           },
           {
             "name": "github.com/ssgelm/cookiejarparser",
@@ -16291,14 +16316,14 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 70,
-        "go": 247,
+        "go": 248,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 328
+        "total": 329
       }
     }
   }
