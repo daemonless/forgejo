@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-30T20:15:22Z",
+  "generated": "2026-10-31T08:37:57Z",
   "image": "forgejo",
   "tags": {
     "15-amd64": {
       "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-30T15:45:02Z",
+      "generated": "2026-10-31T08:30:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1772,7 +1772,7 @@
     "15-latest-amd64": {
       "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-30T20:14:27Z",
+      "generated": "2026-10-31T08:37:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3544,7 +3544,7 @@
     "15-pkg-latest-amd64": {
       "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-30T15:33:18Z",
+      "generated": "2026-10-31T08:26:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5328,7 +5328,7 @@
     "16-amd64": {
       "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-30T15:41:41Z",
+      "generated": "2026-10-31T08:32:42Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7155,7 +7155,7 @@
     "16-latest-amd64": {
       "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-30T15:41:25Z",
+      "generated": "2026-10-31T08:29:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -8985,9 +8985,9 @@
       }
     },
     "16-pkg-amd64": {
-      "app_version": "16.0.6_1",
+      "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-30T15:33:41Z",
+      "generated": "2026-10-31T08:22:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9276,7 +9276,7 @@
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.6_1"
+            "version": "16.0.7"
           },
           {
             "licenses": [
@@ -9602,7 +9602,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "16.0.6"
+            "version": "16.0.7"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -10826,7 +10826,7 @@
     "16-pkg-latest-amd64": {
       "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-30T15:33:35Z",
+      "generated": "2026-10-31T08:26:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -12670,7 +12670,7 @@
     "17-amd64": {
       "app_version": "17.0.1",
       "arch": "amd64",
-      "generated": "2026-10-30T15:41:07Z",
+      "generated": "2026-10-31T08:30:04Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -14497,7 +14497,7 @@
     "17-latest-amd64": {
       "app_version": "17.0.1",
       "arch": "amd64",
-      "generated": "2026-10-30T15:41:41Z",
+      "generated": "2026-10-31T08:34:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
