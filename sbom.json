@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-31T08:37:57Z",
+  "generated": "2026-11-04T12:26:27Z",
   "image": "forgejo",
   "tags": {
     "15-amd64": {
       "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-31T08:30:33Z",
+      "generated": "2026-11-04T12:24:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -287,7 +287,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -1772,7 +1772,7 @@
     "15-latest-amd64": {
       "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-31T08:37:00Z",
+      "generated": "2026-11-04T12:23:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3544,7 +3544,7 @@
     "15-pkg-latest-amd64": {
       "app_version": "15.0.11",
       "arch": "amd64",
-      "generated": "2026-10-31T08:26:54Z",
+      "generated": "2026-11-04T12:17:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5328,7 +5328,7 @@
     "16-amd64": {
       "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-31T08:32:42Z",
+      "generated": "2026-11-04T12:24:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5610,7 +5610,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -7155,7 +7155,7 @@
     "16-latest-amd64": {
       "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-31T08:29:43Z",
+      "generated": "2026-11-04T12:24:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -8987,7 +8987,7 @@
     "16-pkg-amd64": {
       "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-31T08:22:26Z",
+      "generated": "2026-11-04T12:16:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9269,7 +9269,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -10826,7 +10826,7 @@
     "16-pkg-latest-amd64": {
       "app_version": "16.0.7",
       "arch": "amd64",
-      "generated": "2026-10-31T08:26:41Z",
+      "generated": "2026-11-04T12:16:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -12670,7 +12670,7 @@
     "17-amd64": {
       "app_version": "17.0.1",
       "arch": "amd64",
-      "generated": "2026-10-31T08:30:04Z",
+      "generated": "2026-11-04T12:24:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -12952,7 +12952,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -14497,7 +14497,7 @@
     "17-latest-amd64": {
       "app_version": "17.0.1",
       "arch": "amd64",
-      "generated": "2026-10-31T08:34:08Z",
+      "generated": "2026-11-04T12:21:51Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
