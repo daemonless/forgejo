@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-03T09:32:04Z",
+  "generated": "2026-11-04T13:31:24Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
       "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:22:07Z",
+      "generated": "2026-11-04T13:22:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -273,7 +273,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -1772,7 +1772,7 @@
     "15-latest-aarch64": {
       "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:22:12Z",
+      "generated": "2026-11-04T13:22:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2040,7 +2040,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -3544,7 +3544,7 @@
     "15-pkg-latest-aarch64": {
       "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:22:18Z",
+      "generated": "2026-11-04T13:22:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3812,7 +3812,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -5328,7 +5328,7 @@
     "16-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:22:23Z",
+      "generated": "2026-11-04T13:23:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5596,7 +5596,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -7155,7 +7155,7 @@
     "16-latest-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:22:28Z",
+      "generated": "2026-11-04T13:23:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7423,7 +7423,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -8987,7 +8987,7 @@
     "16-pkg-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:22:34Z",
+      "generated": "2026-11-04T13:23:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9255,7 +9255,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -10826,7 +10826,7 @@
     "16-pkg-latest-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:22:40Z",
+      "generated": "2026-11-04T13:23:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -11094,7 +11094,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -12670,7 +12670,7 @@
     "17-aarch64": {
       "app_version": "17.0.1",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:22:46Z",
+      "generated": "2026-11-04T13:23:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -12938,7 +12938,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -14497,7 +14497,7 @@
     "17-latest-aarch64": {
       "app_version": "17.0.1",
       "arch": "aarch64",
-      "generated": "2026-11-03T09:22:53Z",
+      "generated": "2026-11-04T13:23:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -14765,7 +14765,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
