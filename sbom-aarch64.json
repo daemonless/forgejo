@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T13:31:24Z",
+  "generated": "2026-11-14T23:26:58Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
       "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-11-04T13:22:44Z",
+      "generated": "2026-11-14T23:17:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -287,7 +287,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -452,7 +452,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20261020"
+            "version": "20261105"
           },
           {
             "licenses": [
@@ -1772,7 +1772,7 @@
     "15-latest-aarch64": {
       "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-11-04T13:22:50Z",
+      "generated": "2026-11-14T23:17:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2054,7 +2054,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -2219,7 +2219,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20261020"
+            "version": "20261105"
           },
           {
             "licenses": [
@@ -2256,7 +2256,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -3544,7 +3544,7 @@
     "15-pkg-latest-aarch64": {
       "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-11-04T13:22:56Z",
+      "generated": "2026-11-14T23:17:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3826,7 +3826,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -3998,7 +3998,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20261020"
+            "version": "20261105"
           },
           {
             "licenses": [
@@ -4035,7 +4035,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -5328,7 +5328,7 @@
     "16-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-04T13:23:02Z",
+      "generated": "2026-11-14T23:17:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5610,7 +5610,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -5775,7 +5775,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20261020"
+            "version": "20261105"
           },
           {
             "licenses": [
@@ -7155,7 +7155,7 @@
     "16-latest-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-04T13:23:08Z",
+      "generated": "2026-11-14T23:17:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7437,7 +7437,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -7602,7 +7602,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20261020"
+            "version": "20261105"
           },
           {
             "licenses": [
@@ -7639,7 +7639,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -8987,7 +8987,7 @@
     "16-pkg-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-04T13:23:14Z",
+      "generated": "2026-11-14T23:17:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9269,7 +9269,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -9441,7 +9441,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20261020"
+            "version": "20261105"
           },
           {
             "licenses": [
@@ -10826,7 +10826,7 @@
     "16-pkg-latest-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-04T13:23:20Z",
+      "generated": "2026-11-14T23:17:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -11108,7 +11108,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -11280,7 +11280,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20261020"
+            "version": "20261105"
           },
           {
             "licenses": [
@@ -11317,7 +11317,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -12670,7 +12670,7 @@
     "17-aarch64": {
       "app_version": "17.0.1",
       "arch": "aarch64",
-      "generated": "2026-11-04T13:23:25Z",
+      "generated": "2026-11-14T23:17:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -12952,7 +12952,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -13117,7 +13117,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20261020"
+            "version": "20261105"
           },
           {
             "licenses": [
@@ -14497,7 +14497,7 @@
     "17-latest-aarch64": {
       "app_version": "17.0.1",
       "arch": "aarch64",
-      "generated": "2026-11-04T13:23:31Z",
+      "generated": "2026-11-14T23:17:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -14779,7 +14779,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
@@ -14944,7 +14944,7 @@
               "MPL20"
             ],
             "name": "p5-Mozilla-CA",
-            "version": "20261020"
+            "version": "20261105"
           },
           {
             "licenses": [
@@ -14981,7 +14981,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
