@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T00:18:40Z",
+  "generated": "2026-11-19T00:47:05Z",
   "image": "forgejo",
   "tags": {
     "15-amd64": {
@@ -12678,9 +12678,9 @@
       }
     },
     "17-amd64": {
-      "app_version": "17.0.1",
+      "app_version": "17.0.2",
       "arch": "amd64",
-      "generated": "2026-11-15T09:10:38Z",
+      "generated": "2026-11-19T00:46:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -12752,7 +12752,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libarchive",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -12780,7 +12780,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libldns",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -12822,14 +12822,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p4"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -12850,7 +12850,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -12864,14 +12864,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p6"
+            "version": "15.1p7"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1p4"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -12906,7 +12906,7 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -12920,7 +12920,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p5"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -13308,7 +13308,7 @@
           {
             "name": "github.com/ProtonMail/go-crypto",
             "purl": "",
-            "version": "v1.4.1"
+            "version": "v1.5.2"
           },
           {
             "name": "github.com/RoaringBitmap/roaring",
@@ -13338,7 +13338,7 @@
           {
             "name": "github.com/andybalholm/brotli",
             "purl": "",
-            "version": "v1.2.0"
+            "version": "v1.2.7"
           },
           {
             "name": "github.com/anmitsu/go-shlex",
@@ -13359,11 +13359,6 @@
             "name": "github.com/bits-and-blooms/bitset",
             "purl": "",
             "version": "v1.24.2"
-          },
-          {
-            "name": "github.com/blakesmith/ar",
-            "purl": "",
-            "version": "v0.0.0-20190502131153-809d4375e1fb"
           },
           {
             "name": "github.com/blevesearch/bleve/v2",
@@ -13528,7 +13523,7 @@
           {
             "name": "github.com/cloudflare/circl",
             "purl": "",
-            "version": "v1.6.3"
+            "version": "v1.6.5"
           },
           {
             "name": "github.com/creack/pty",
@@ -13913,7 +13908,7 @@
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.20.0"
+            "version": "v1.20.3"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -14253,7 +14248,7 @@
           {
             "name": "github.com/ulikunitz/xz",
             "purl": "",
-            "version": "v0.5.16"
+            "version": "v0.5.17"
           },
           {
             "name": "github.com/urfave/cli/v3",
@@ -14269,6 +14264,11 @@
             "name": "github.com/x448/float16",
             "purl": "",
             "version": "v0.8.4"
+          },
+          {
+            "name": "github.com/xi2/xz",
+            "purl": "",
+            "version": "v0.0.0-20171230120015-48954b6210f8"
           },
           {
             "name": "github.com/yohcop/openid-go",
@@ -14343,7 +14343,7 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/image",
@@ -14358,7 +14358,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.60.0"
+            "version": "v0.62.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -14368,17 +14368,17 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.23.0"
+            "version": "v0.24.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.48.0"
+            "version": "v0.49.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.42.0"
+            "version": "v0.43.0"
           },
           {
             "name": "golang.org/x/time",
@@ -14414,6 +14414,16 @@
             "name": "mvdan.cc/xurls/v2",
             "purl": "",
             "version": "v2.6.0"
+          },
+          {
+            "name": "pault.ag/go/debian",
+            "purl": "",
+            "version": "v0.21.4"
+          },
+          {
+            "name": "pault.ag/go/topsort",
+            "purl": "",
+            "version": "v0.1.1"
           },
           {
             "name": "stdlib",
@@ -14494,14 +14504,14 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 70,
-        "go": 247,
+        "go": 249,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 328
+        "total": 330
       }
     },
     "17-latest-amd64": {
