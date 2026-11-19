@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-18T00:11:56Z",
+  "generated": "2026-11-19T04:43:06Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
-      "app_version": "15.0.11",
+      "app_version": "15.0.12",
       "arch": "aarch64",
-      "generated": "2026-11-17T23:57:41Z",
+      "generated": "2026-11-19T04:30:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -638,7 +638,7 @@
           {
             "name": "github.com/ProtonMail/go-crypto",
             "purl": "",
-            "version": "v1.4.1"
+            "version": "v1.5.2"
           },
           {
             "name": "github.com/RoaringBitmap/roaring/v2",
@@ -663,7 +663,7 @@
           {
             "name": "github.com/andybalholm/brotli",
             "purl": "",
-            "version": "v1.2.0"
+            "version": "v1.2.7"
           },
           {
             "name": "github.com/anmitsu/go-shlex",
@@ -684,11 +684,6 @@
             "name": "github.com/bits-and-blooms/bitset",
             "purl": "",
             "version": "v1.22.0"
-          },
-          {
-            "name": "github.com/blakesmith/ar",
-            "purl": "",
-            "version": "v0.0.0-20190502131153-809d4375e1fb"
           },
           {
             "name": "github.com/blevesearch/bleve/v2",
@@ -843,7 +838,7 @@
           {
             "name": "github.com/cloudflare/circl",
             "purl": "",
-            "version": "v1.6.3"
+            "version": "v1.6.5"
           },
           {
             "name": "github.com/djherbis/buffer",
@@ -1213,7 +1208,7 @@
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.18.7"
+            "version": "v1.20.3"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -1533,7 +1528,7 @@
           {
             "name": "github.com/ulikunitz/xz",
             "purl": "",
-            "version": "v0.5.15"
+            "version": "v0.5.17"
           },
           {
             "name": "github.com/urfave/cli/v3",
@@ -1549,6 +1544,11 @@
             "name": "github.com/x448/float16",
             "purl": "",
             "version": "v0.8.4"
+          },
+          {
+            "name": "github.com/xi2/xz",
+            "purl": "",
+            "version": "v0.0.0-20171230120015-48954b6210f8"
           },
           {
             "name": "github.com/yohcop/openid-go",
@@ -1618,7 +1618,7 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/image",
@@ -1633,7 +1633,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.60.0"
+            "version": "v0.62.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -1643,17 +1643,17 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.23.0"
+            "version": "v0.24.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.48.0"
+            "version": "v0.49.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.42.0"
+            "version": "v0.43.0"
           },
           {
             "name": "golang.org/x/time",
@@ -1679,6 +1679,16 @@
             "name": "mvdan.cc/xurls/v2",
             "purl": "",
             "version": "v2.6.0"
+          },
+          {
+            "name": "pault.ag/go/debian",
+            "purl": "",
+            "version": "v0.21.4"
+          },
+          {
+            "name": "pault.ag/go/topsort",
+            "purl": "",
+            "version": "v0.1.1"
           },
           {
             "name": "stdlib",
@@ -1759,20 +1769,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 70,
-        "go": 235,
+        "go": 237,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 316
+        "total": 318
       }
     },
     "15-latest-aarch64": {
-      "app_version": "15.0.11",
+      "app_version": "15.0.12",
       "arch": "aarch64",
-      "generated": "2026-11-17T23:57:45Z",
+      "generated": "2026-11-19T04:30:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2405,7 +2415,7 @@
           {
             "name": "github.com/ProtonMail/go-crypto",
             "purl": "",
-            "version": "v1.4.1"
+            "version": "v1.5.2"
           },
           {
             "name": "github.com/RoaringBitmap/roaring/v2",
@@ -2430,7 +2440,7 @@
           {
             "name": "github.com/andybalholm/brotli",
             "purl": "",
-            "version": "v1.2.0"
+            "version": "v1.2.7"
           },
           {
             "name": "github.com/anmitsu/go-shlex",
@@ -2451,11 +2461,6 @@
             "name": "github.com/bits-and-blooms/bitset",
             "purl": "",
             "version": "v1.22.0"
-          },
-          {
-            "name": "github.com/blakesmith/ar",
-            "purl": "",
-            "version": "v0.0.0-20190502131153-809d4375e1fb"
           },
           {
             "name": "github.com/blevesearch/bleve/v2",
@@ -2610,7 +2615,7 @@
           {
             "name": "github.com/cloudflare/circl",
             "purl": "",
-            "version": "v1.6.3"
+            "version": "v1.6.5"
           },
           {
             "name": "github.com/djherbis/buffer",
@@ -2985,7 +2990,7 @@
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.18.7"
+            "version": "v1.20.3"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -3305,7 +3310,7 @@
           {
             "name": "github.com/ulikunitz/xz",
             "purl": "",
-            "version": "v0.5.15"
+            "version": "v0.5.17"
           },
           {
             "name": "github.com/urfave/cli/v3",
@@ -3321,6 +3326,11 @@
             "name": "github.com/x448/float16",
             "purl": "",
             "version": "v0.8.4"
+          },
+          {
+            "name": "github.com/xi2/xz",
+            "purl": "",
+            "version": "v0.0.0-20171230120015-48954b6210f8"
           },
           {
             "name": "github.com/yohcop/openid-go",
@@ -3390,7 +3400,7 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/image",
@@ -3405,7 +3415,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.60.0"
+            "version": "v0.62.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -3415,17 +3425,17 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.23.0"
+            "version": "v0.24.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.48.0"
+            "version": "v0.49.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.42.0"
+            "version": "v0.43.0"
           },
           {
             "name": "golang.org/x/time",
@@ -3453,9 +3463,19 @@
             "version": "v2.6.0"
           },
           {
+            "name": "pault.ag/go/debian",
+            "purl": "",
+            "version": "v0.21.4"
+          },
+          {
+            "name": "pault.ag/go/topsort",
+            "purl": "",
+            "version": "v0.1.1"
+          },
+          {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.10"
+            "version": "v1.26.11"
           },
           {
             "name": "xorm.io/builder",
@@ -3531,20 +3551,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 70,
-        "go": 236,
+        "go": 238,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 317
+        "total": 319
       }
     },
     "15-pkg-latest-aarch64": {
       "app_version": "15.0.11",
       "arch": "aarch64",
-      "generated": "2026-11-17T23:57:49Z",
+      "generated": "2026-11-19T04:30:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -5328,7 +5348,7 @@
     "16-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-17T23:57:53Z",
+      "generated": "2026-11-19T04:30:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7155,7 +7175,7 @@
     "16-latest-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-17T23:57:57Z",
+      "generated": "2026-11-19T04:30:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -8987,7 +9007,7 @@
     "16-pkg-aarch64": {
       "app_version": "16.0.7_1",
       "arch": "aarch64",
-      "generated": "2026-11-17T23:58:02Z",
+      "generated": "2026-11-19T04:30:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -10826,7 +10846,7 @@
     "16-pkg-latest-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-17T23:58:06Z",
+      "generated": "2026-11-19T04:30:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -12668,9 +12688,9 @@
       }
     },
     "17-aarch64": {
-      "app_version": "17.0.1",
+      "app_version": "17.0.2",
       "arch": "aarch64",
-      "generated": "2026-11-17T23:58:11Z",
+      "generated": "2026-11-19T04:30:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -13298,7 +13318,7 @@
           {
             "name": "github.com/ProtonMail/go-crypto",
             "purl": "",
-            "version": "v1.4.1"
+            "version": "v1.5.2"
           },
           {
             "name": "github.com/RoaringBitmap/roaring",
@@ -13328,7 +13348,7 @@
           {
             "name": "github.com/andybalholm/brotli",
             "purl": "",
-            "version": "v1.2.0"
+            "version": "v1.2.7"
           },
           {
             "name": "github.com/anmitsu/go-shlex",
@@ -13349,11 +13369,6 @@
             "name": "github.com/bits-and-blooms/bitset",
             "purl": "",
             "version": "v1.24.2"
-          },
-          {
-            "name": "github.com/blakesmith/ar",
-            "purl": "",
-            "version": "v0.0.0-20190502131153-809d4375e1fb"
           },
           {
             "name": "github.com/blevesearch/bleve/v2",
@@ -13518,7 +13533,7 @@
           {
             "name": "github.com/cloudflare/circl",
             "purl": "",
-            "version": "v1.6.3"
+            "version": "v1.6.5"
           },
           {
             "name": "github.com/creack/pty",
@@ -13903,7 +13918,7 @@
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.20.0"
+            "version": "v1.20.3"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -14243,7 +14258,7 @@
           {
             "name": "github.com/ulikunitz/xz",
             "purl": "",
-            "version": "v0.5.16"
+            "version": "v0.5.17"
           },
           {
             "name": "github.com/urfave/cli/v3",
@@ -14259,6 +14274,11 @@
             "name": "github.com/x448/float16",
             "purl": "",
             "version": "v0.8.4"
+          },
+          {
+            "name": "github.com/xi2/xz",
+            "purl": "",
+            "version": "v0.0.0-20171230120015-48954b6210f8"
           },
           {
             "name": "github.com/yohcop/openid-go",
@@ -14333,7 +14353,7 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/image",
@@ -14348,7 +14368,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.60.0"
+            "version": "v0.62.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -14358,17 +14378,17 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.23.0"
+            "version": "v0.24.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.48.0"
+            "version": "v0.49.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.42.0"
+            "version": "v0.43.0"
           },
           {
             "name": "golang.org/x/time",
@@ -14404,6 +14424,16 @@
             "name": "mvdan.cc/xurls/v2",
             "purl": "",
             "version": "v2.6.0"
+          },
+          {
+            "name": "pault.ag/go/debian",
+            "purl": "",
+            "version": "v0.21.4"
+          },
+          {
+            "name": "pault.ag/go/topsort",
+            "purl": "",
+            "version": "v0.1.1"
           },
           {
             "name": "stdlib",
@@ -14484,20 +14514,20 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 70,
-        "go": 247,
+        "go": 249,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 328
+        "total": 330
       }
     },
     "17-latest-aarch64": {
-      "app_version": "17.0.1",
+      "app_version": "17.0.2",
       "arch": "aarch64",
-      "generated": "2026-11-17T23:58:15Z",
+      "generated": "2026-11-19T04:30:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -15125,7 +15155,7 @@
           {
             "name": "github.com/ProtonMail/go-crypto",
             "purl": "",
-            "version": "v1.4.1"
+            "version": "v1.5.2"
           },
           {
             "name": "github.com/RoaringBitmap/roaring",
@@ -15155,7 +15185,7 @@
           {
             "name": "github.com/andybalholm/brotli",
             "purl": "",
-            "version": "v1.2.0"
+            "version": "v1.2.7"
           },
           {
             "name": "github.com/anmitsu/go-shlex",
@@ -15176,11 +15206,6 @@
             "name": "github.com/bits-and-blooms/bitset",
             "purl": "",
             "version": "v1.24.2"
-          },
-          {
-            "name": "github.com/blakesmith/ar",
-            "purl": "",
-            "version": "v0.0.0-20190502131153-809d4375e1fb"
           },
           {
             "name": "github.com/blevesearch/bleve/v2",
@@ -15345,7 +15370,7 @@
           {
             "name": "github.com/cloudflare/circl",
             "purl": "",
-            "version": "v1.6.3"
+            "version": "v1.6.5"
           },
           {
             "name": "github.com/creack/pty",
@@ -15735,7 +15760,7 @@
           {
             "name": "github.com/klauspost/compress",
             "purl": "",
-            "version": "v1.20.0"
+            "version": "v1.20.3"
           },
           {
             "name": "github.com/klauspost/cpuid/v2",
@@ -16075,7 +16100,7 @@
           {
             "name": "github.com/ulikunitz/xz",
             "purl": "",
-            "version": "v0.5.16"
+            "version": "v0.5.17"
           },
           {
             "name": "github.com/urfave/cli/v3",
@@ -16091,6 +16116,11 @@
             "name": "github.com/x448/float16",
             "purl": "",
             "version": "v0.8.4"
+          },
+          {
+            "name": "github.com/xi2/xz",
+            "purl": "",
+            "version": "v0.0.0-20171230120015-48954b6210f8"
           },
           {
             "name": "github.com/yohcop/openid-go",
@@ -16165,7 +16195,7 @@
           {
             "name": "golang.org/x/crypto",
             "purl": "",
-            "version": "v0.57.0"
+            "version": "v0.58.0"
           },
           {
             "name": "golang.org/x/image",
@@ -16180,7 +16210,7 @@
           {
             "name": "golang.org/x/net",
             "purl": "",
-            "version": "v0.60.0"
+            "version": "v0.62.0"
           },
           {
             "name": "golang.org/x/oauth2",
@@ -16190,17 +16220,17 @@
           {
             "name": "golang.org/x/sync",
             "purl": "",
-            "version": "v0.23.0"
+            "version": "v0.24.0"
           },
           {
             "name": "golang.org/x/sys",
             "purl": "",
-            "version": "v0.48.0"
+            "version": "v0.49.0"
           },
           {
             "name": "golang.org/x/text",
             "purl": "",
-            "version": "v0.42.0"
+            "version": "v0.43.0"
           },
           {
             "name": "golang.org/x/time",
@@ -16238,9 +16268,19 @@
             "version": "v2.6.0"
           },
           {
+            "name": "pault.ag/go/debian",
+            "purl": "",
+            "version": "v0.21.4"
+          },
+          {
+            "name": "pault.ag/go/topsort",
+            "purl": "",
+            "version": "v0.1.1"
+          },
+          {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.10"
+            "version": "v1.26.11"
           },
           {
             "name": "xorm.io/builder",
@@ -16316,14 +16356,14 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 70,
-        "go": 248,
+        "go": 250,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 329
+        "total": 331
       }
     }
   }
