@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-19T04:43:06Z",
+  "generated": "2026-11-20T18:15:11Z",
   "image": "forgejo",
   "tags": {
     "15-aarch64": {
       "app_version": "15.0.12",
       "arch": "aarch64",
-      "generated": "2026-11-19T04:30:00Z",
+      "generated": "2026-11-20T18:05:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1782,7 +1782,7 @@
     "15-latest-aarch64": {
       "app_version": "15.0.12",
       "arch": "aarch64",
-      "generated": "2026-11-19T04:30:05Z",
+      "generated": "2026-11-20T18:05:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2079,14 +2079,14 @@
               "GPLv2"
             ],
             "name": "git",
-            "version": "2.56.0"
+            "version": "2.56.1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.8.1"
+            "version": "3.8.1_1"
           },
           {
             "licenses": [
@@ -2122,14 +2122,14 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.70.0"
+            "version": "1.71.0"
           },
           {
             "licenses": [
@@ -2266,14 +2266,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -3562,9 +3562,9 @@
       }
     },
     "15-pkg-latest-aarch64": {
-      "app_version": "15.0.11",
+      "app_version": "15.0.11_1",
       "arch": "aarch64",
-      "generated": "2026-11-19T04:30:10Z",
+      "generated": "2026-11-20T18:05:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3853,7 +3853,7 @@
               "GPLv3+"
             ],
             "name": "forgejo15",
-            "version": "15.0.11"
+            "version": "15.0.11_1"
           },
           {
             "licenses": [
@@ -3868,14 +3868,14 @@
               "GPLv2"
             ],
             "name": "git",
-            "version": "2.56.0"
+            "version": "2.56.1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.8.1"
+            "version": "3.8.1_1"
           },
           {
             "licenses": [
@@ -3911,14 +3911,14 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.70.0"
+            "version": "1.71.0"
           },
           {
             "licenses": [
@@ -4055,14 +4055,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -5259,7 +5259,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.3"
+            "version": "v1.27.4"
           },
           {
             "name": "xorm.io/builder",
@@ -5348,7 +5348,7 @@
     "16-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-19T04:30:14Z",
+      "generated": "2026-11-20T18:06:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7175,7 +7175,7 @@
     "16-latest-aarch64": {
       "app_version": "16.0.7",
       "arch": "aarch64",
-      "generated": "2026-11-19T04:30:19Z",
+      "generated": "2026-11-20T18:06:06Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -7472,14 +7472,14 @@
               "GPLv2"
             ],
             "name": "git",
-            "version": "2.56.0"
+            "version": "2.56.1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.8.1"
+            "version": "3.8.1_1"
           },
           {
             "licenses": [
@@ -7515,14 +7515,14 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.70.0"
+            "version": "1.71.0"
           },
           {
             "licenses": [
@@ -7659,14 +7659,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -8918,7 +8918,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.10"
+            "version": "v1.26.11"
           },
           {
             "name": "xorm.io/builder",
@@ -9007,7 +9007,7 @@
     "16-pkg-aarch64": {
       "app_version": "16.0.7_1",
       "arch": "aarch64",
-      "generated": "2026-11-19T04:30:22Z",
+      "generated": "2026-11-20T18:06:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -10844,9 +10844,9 @@
       }
     },
     "16-pkg-latest-aarch64": {
-      "app_version": "16.0.7",
+      "app_version": "16.0.7_1",
       "arch": "aarch64",
-      "generated": "2026-11-19T04:30:26Z",
+      "generated": "2026-11-20T18:06:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -11135,7 +11135,7 @@
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.7"
+            "version": "16.0.7_1"
           },
           {
             "licenses": [
@@ -11150,14 +11150,14 @@
               "GPLv2"
             ],
             "name": "git",
-            "version": "2.56.0"
+            "version": "2.56.1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.8.1"
+            "version": "3.8.1_1"
           },
           {
             "licenses": [
@@ -11193,14 +11193,14 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.70.0"
+            "version": "1.71.0"
           },
           {
             "licenses": [
@@ -11337,14 +11337,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -12601,7 +12601,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.3"
+            "version": "v1.27.4"
           },
           {
             "name": "xorm.io/builder",
@@ -12690,7 +12690,7 @@
     "17-aarch64": {
       "app_version": "17.0.2",
       "arch": "aarch64",
-      "generated": "2026-11-19T04:30:30Z",
+      "generated": "2026-11-20T18:06:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -14527,7 +14527,7 @@
     "17-latest-aarch64": {
       "app_version": "17.0.2",
       "arch": "aarch64",
-      "generated": "2026-11-19T04:30:34Z",
+      "generated": "2026-11-20T18:06:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -14824,14 +14824,14 @@
               "GPLv2"
             ],
             "name": "git",
-            "version": "2.56.0"
+            "version": "2.56.1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "git-lfs",
-            "version": "3.8.1"
+            "version": "3.8.1_1"
           },
           {
             "licenses": [
@@ -14867,14 +14867,14 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.70.0"
+            "version": "1.71.0"
           },
           {
             "licenses": [
@@ -15011,14 +15011,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
