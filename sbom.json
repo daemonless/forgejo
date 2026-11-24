@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T00:47:05Z",
+  "generated": "2026-11-24T10:50:08Z",
   "image": "forgejo",
   "tags": {
     "15-amd64": {
@@ -3552,9 +3552,9 @@
       }
     },
     "15-pkg-latest-amd64": {
-      "app_version": "15.0.11_1",
+      "app_version": "15.0.12",
       "arch": "amd64",
-      "generated": "2026-11-15T09:00:23Z",
+      "generated": "2026-11-24T10:47:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3626,7 +3626,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libarchive",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -3654,7 +3654,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libldns",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -3696,14 +3696,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p4"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -3724,7 +3724,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -3738,14 +3738,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p6"
+            "version": "15.1p7"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1p4"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -3780,7 +3780,7 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -3794,7 +3794,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p5"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -3815,7 +3815,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.1,1"
+            "version": "1.2.1_1,1"
           },
           {
             "licenses": [
@@ -3843,7 +3843,7 @@
               "GPLv3+"
             ],
             "name": "forgejo15",
-            "version": "15.0.11_1"
+            "version": "15.0.12"
           },
           {
             "licenses": [
@@ -3901,14 +3901,14 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.70.0"
+            "version": "1.71.0"
           },
           {
             "licenses": [
@@ -3977,7 +3977,7 @@
               "GPLv1+"
             ],
             "name": "p5-Error",
-            "version": "0.17030"
+            "version": "0.17031"
           },
           {
             "licenses": [
@@ -4045,7 +4045,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.3"
           },
           {
             "licenses": [
@@ -4169,7 +4169,7 @@
           {
             "name": "forgejo.org",
             "purl": "",
-            "version": "15.0.11"
+            "version": "15.0.12"
           },
           {
             "name": "github.com/42wim/httpsig",
@@ -4194,7 +4194,7 @@
           {
             "name": "github.com/ProtonMail/go-crypto",
             "purl": "",
-            "version": "v1.4.1"
+            "version": "v1.5.2"
           },
           {
             "name": "github.com/RoaringBitmap/roaring/v2",
@@ -4219,7 +4219,7 @@
           {
             "name": "github.com/andybalholm/brotli",
             "purl": "",
-            "version": "v1.2.0"
+            "version": "v1.2.7"
           },
           {
             "name": "github.com/anmitsu/go-shlex",
@@ -4240,11 +4240,6 @@
             "name": "github.com/bits-and-blooms/bitset",
             "purl": "",
             "version": "v1.22.0"
-          },
-          {
-            "name": "github.com/blakesmith/ar",
-            "purl": "",
-            "version": "v0.0.0-20190502131153-809d4375e1fb"
           },
           {
             "name": "github.com/blevesearch/bleve/v2",
@@ -4399,7 +4394,7 @@
           {
             "name": "github.com/cloudflare/circl",
             "purl": "",
-            "version": "v1.6.3"
+            "version": "v1.6.5"
           },
           {
             "name": "github.com/djherbis/buffer",
@@ -5099,7 +5094,7 @@
           {
             "name": "github.com/ulikunitz/xz",
             "purl": "",
-            "version": "v0.5.15"
+            "version": "v0.5.17"
           },
           {
             "name": "github.com/urfave/cli/v3",
@@ -5115,6 +5110,11 @@
             "name": "github.com/x448/float16",
             "purl": "",
             "version": "v0.8.4"
+          },
+          {
+            "name": "github.com/xi2/xz",
+            "purl": "",
+            "version": "v0.0.0-20171230120015-48954b6210f8"
           },
           {
             "name": "github.com/yohcop/openid-go",
@@ -5247,6 +5247,16 @@
             "version": "v2.6.0"
           },
           {
+            "name": "pault.ag/go/debian",
+            "purl": "",
+            "version": "v0.21.4"
+          },
+          {
+            "name": "pault.ag/go/topsort",
+            "purl": "",
+            "version": "v0.1.1"
+          },
+          {
             "name": "stdlib",
             "purl": "",
             "version": "v1.27.4"
@@ -5325,14 +5335,14 @@
       "summary": {
         "dotnet": 0,
         "freebsd": 71,
-        "go": 237,
+        "go": 239,
         "java": 0,
         "node": 0,
         "php": 0,
         "python": 1,
         "ruby": 0,
         "rust": 10,
-        "total": 319
+        "total": 321
       }
     },
     "16-amd64": {
@@ -8995,9 +9005,9 @@
       }
     },
     "16-pkg-amd64": {
-      "app_version": "16.0.7_1",
+      "app_version": "16.0.7_2",
       "arch": "amd64",
-      "generated": "2026-11-15T09:00:54Z",
+      "generated": "2026-11-24T10:47:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -9069,7 +9079,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libarchive",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -9097,7 +9107,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libldns",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -9139,14 +9149,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p4"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -9167,7 +9177,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -9181,14 +9191,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p6"
+            "version": "15.1p7"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1p4"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -9223,7 +9233,7 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -9237,7 +9247,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p5"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -9279,14 +9289,14 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "licenses": [
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.7_1"
+            "version": "16.0.7_2"
           },
           {
             "licenses": [
@@ -10834,9 +10844,9 @@
       }
     },
     "16-pkg-latest-amd64": {
-      "app_version": "16.0.7_1",
+      "app_version": "16.0.7_2",
       "arch": "amd64",
-      "generated": "2026-11-15T09:02:48Z",
+      "generated": "2026-11-24T10:49:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -10908,7 +10918,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libarchive",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -10936,7 +10946,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libldns",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -10978,14 +10988,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p4"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -11006,7 +11016,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -11020,14 +11030,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p6"
+            "version": "15.1p7"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "FreeBSD-ssh",
-            "version": "15.1p4"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -11062,7 +11072,7 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -11076,7 +11086,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p5"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -11097,7 +11107,7 @@
               "MIT"
             ],
             "name": "brotli",
-            "version": "1.2.1,1"
+            "version": "1.2.1_1,1"
           },
           {
             "licenses": [
@@ -11125,7 +11135,7 @@
               "GPLv3+"
             ],
             "name": "forgejo16",
-            "version": "16.0.7_1"
+            "version": "16.0.7_2"
           },
           {
             "licenses": [
@@ -11183,14 +11193,14 @@
               "GPLv2"
             ],
             "name": "liblz4",
-            "version": "1.10.0_2,1"
+            "version": "1.11.1,1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.70.0"
+            "version": "1.71.0"
           },
           {
             "licenses": [
@@ -11259,7 +11269,7 @@
               "GPLv1+"
             ],
             "name": "p5-Error",
-            "version": "0.17030"
+            "version": "0.17031"
           },
           {
             "licenses": [
@@ -11327,7 +11337,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.3"
           },
           {
             "licenses": [
